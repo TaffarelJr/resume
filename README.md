@@ -1,8 +1,10 @@
 # RJ Hollberg
 
-14294 Pepper Grass Lane<br/>
-Herriman, UT 84096<br/>
-801-558-3812
+14294 Pepper Grass Lane  
+Herriman, UT 84096  
+801-558-3812  
+rj.hollberg@outlook.com  
+https://taffareljr.github.io/resume
 
 ## Summary
 

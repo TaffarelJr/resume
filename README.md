@@ -27,13 +27,12 @@ _Western Governors University, 2016_
 <a href="Microsoft/MTA/Database/MTA_Database_Blk.png"><img src="Microsoft/MTA/Database/MTA_Database_Blk.png" width="100" align="top"></a>
 <a href="Microsoft/MTA/Networking/MTA_Network_Blk.png"><img src="Microsoft/MTA/Networking/MTA_Network_Blk.png" width="100" align="top"></a>
 <a href="Microsoft/MTA/Security/MTA_Security_Blk.png"><img src="Microsoft/MTA/Security/MTA_Security_Blk.png" width="100" align="top"></a>
-</br>
+
 <a href="CompTIA/A%2B%20ce/Aplus%20Logo%20Certified%20CE.png"><img src="CompTIA/A%2B%20ce/Aplus%20Logo%20Certified%20CE.png" width="60" align="top"></a>
 <a href="CompTIA/Network%2B%20ce/NetworkPlus%20Logo%20Certified%20CE.png"><img src="CompTIA/Network%2B%20ce/NetworkPlus%20Logo%20Certified%20CE.png" width="60" align="top"></a>
 <a href="CompTIA/Security%2B%20ce/SecurityPlus%20Logo%20Certified%20CE.png"><img src="CompTIA/Security%2B%20ce/SecurityPlus%20Logo%20Certified%20CE.png" width="60" align="top"></a>
 <a href="CompTIA/Project%2B/ProjectPlus%20Logo%20Certified.png"><img src="CompTIA/Project%2B/ProjectPlus%20Logo%20Certified.png" width="60" align="top"></a>
-</br>
-</br>
+
 <a href="CIW/CIW%20Web%20Foundations%20Associate%20Logo.jpg"><img src="CIW/CIW%20Web%20Foundations%20Associate%20Logo.jpg" width="60" align="top"></a>
 <a href="CIW/CIW%20Web%20Design%20Specialist%20Logo.jpg"><img src="CIW/CIW%20Web%20Design%20Specialist%20Logo.jpg" width="60" align="top"></a>
 <a href="CIW/CIW%20JavaScript%20Specialist%20Logo.jpg"><img src="CIW/CIW%20JavaScript%20Specialist%20Logo.jpg" width="60" align="top"></a>
@@ -90,8 +89,6 @@ _Western Governors University, 2016_
 ![](https://img.shields.io/badge/-Sumo%20Logic-lightgrey)
 ![](https://img.shields.io/badge/-PagerDuty-lightgrey)
 
----
-
 ### **5.** _(3/2016 - 2/2017)_ **Senior Software Developer** - Willis Towers Watson
 
 - Played a central role in designing and implementing strategy for migrating to new database technology
@@ -117,8 +114,6 @@ _Western Governors University, 2016_
 
 ![](https://img.shields.io/badge/-Integrations%20with:-blueviolet)
 ![](https://img.shields.io/badge/-TeamCity-lightgrey)
-
----
 
 ### **4.** _(8/2013 - 2/2016)_ **Senior Software Developer** - Aviacode
 
@@ -160,8 +155,6 @@ _Western Governors University, 2016_
 
 ![](https://img.shields.io/badge/-Integrations%20with:-blueviolet)
 ![](https://img.shields.io/badge/-TeamCity-lightgrey)
-
----
 
 ### **3.** _(2/2005 - 7/2013)_ **Software Developer** - Centershift
 
@@ -238,8 +231,6 @@ _Western Governors University, 2016_
 ![](https://img.shields.io/badge/-Credit%20Card%20Processors-lightgrey)
 ![](https://img.shields.io/badge/-Microsoft%20Dynamics%20C5-lightgrey)
 
----
-
 ### **2.** _(7/2001 - 1/2005)_ **Consultant** - Keane, Inc.
 
 - Designed, built, and maintained several applications and databases for The Church of Jesus Christ of Latter-Day Saints, including:
@@ -277,8 +268,6 @@ _Western Governors University, 2016_
 ![](https://img.shields.io/badge/-MS%20Excel-lightgrey)
 ![](https://img.shields.io/badge/-Handheld%20PCs-lightgrey)
 ![](https://img.shields.io/badge/-Scanners-lightgrey)
-
----
 
 ### **1.** _(7/1999 - 7/2001)_ **Technical Research Assistant** - PEGUS Research
 

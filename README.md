@@ -16,7 +16,7 @@ https://taffareljr.github.io/resume
 
 ## Education
 
-B.S. in IT - Software Emphasis  
+B.S. in Information Technology - Software Emphasis  
 _Western Governors University, 2016_
 
 ## Certifications

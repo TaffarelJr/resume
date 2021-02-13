@@ -6,6 +6,22 @@ Herriman, UT 84096
 rj.hollberg@outlook.com  
 https://taffareljr.github.io/resume
 
+## Table of Contents
+
+- [RJ Hollberg](#rj-hollberg)
+  - [Table of Contents](#table-of-contents)
+  - [Summary](#summary)
+  - [Education](#education)
+  - [Certifications](#certifications)
+  - [Skills](#skills)
+  - [Professional Experience](#professional-experience)
+    - [**6. Software Architect** - Willis Towers Watson](#6-software-architect---willis-towers-watson)
+    - [**5. Senior Software Developer** - Willis Towers Watson](#5-senior-software-developer---willis-towers-watson)
+    - [**4. Senior Software Developer** - Aviacode](#4-senior-software-developer---aviacode)
+    - [**3. Software Developer** - Centershift](#3-software-developer---centershift)
+    - [**2. Consultant** - Keane, Inc.](#2-consultant---keane-inc)
+    - [**1. Technical Research Assistant** - PEGUS Research](#1-technical-research-assistant---pegus-research)
+
 ## Summary
 
 - Software architect with 20+ years of experience

@@ -6,6 +6,22 @@ Herriman, UT 84096
 rj.hollberg@outlook.com  
 https://taffareljr.github.io/resume
 
+## Table of Contents
+
+- [RJ Hollberg](#rj-hollberg)
+  - [Table of Contents](#table-of-contents)
+  - [Summary](#summary)
+  - [Education](#education)
+  - [Certifications](#certifications)
+  - [Skills](#skills)
+  - [Professional Experience](#professional-experience)
+    - [**6. Software Architect** - Willis Towers Watson](#6-software-architect---willis-towers-watson)
+    - [**5. Senior Software Developer** - Willis Towers Watson](#5-senior-software-developer---willis-towers-watson)
+    - [**4. Senior Software Developer** - Aviacode](#4-senior-software-developer---aviacode)
+    - [**3. Software Developer** - Centershift](#3-software-developer---centershift)
+    - [**2. Consultant** - Keane, Inc.](#2-consultant---keane-inc)
+    - [**1. Technical Research Assistant** - PEGUS Research](#1-technical-research-assistant---pegus-research)
+
 ## Summary
 
 - Software architect with 20+ years of experience
@@ -16,7 +32,7 @@ https://taffareljr.github.io/resume
 
 ## Education
 
-B.S. in IT - Software Emphasis  
+B.S. in Information Technology - Software Emphasis  
 _Western Governors University, 2016_
 
 ## Certifications
@@ -47,7 +63,9 @@ _Western Governors University, 2016_
 
 ## Professional Experience
 
-### **6.** _(2/2017 - Current)_ **Software Architect** - Willis Towers Watson
+### **6. Software Architect** - Willis Towers Watson
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_(2/2017 - Current)_
 
 - Worked with several dev teams, with a specific focus on:
   - Helping teams redesign legacy code as event-based microservices
@@ -89,7 +107,9 @@ _Western Governors University, 2016_
 ![](https://img.shields.io/badge/-Sumo%20Logic-lightgrey)
 ![](https://img.shields.io/badge/-PagerDuty-lightgrey)
 
-### **5.** _(3/2016 - 2/2017)_ **Senior Software Developer** - Willis Towers Watson
+### **5. Senior Software Developer** - Willis Towers Watson
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_(3/2016 - 2/2017)_
 
 - Played a central role in designing and implementing strategy for migrating to new database technology
   - Created efficient tooling to perform automated document migration and verification
@@ -115,7 +135,9 @@ _Western Governors University, 2016_
 ![](https://img.shields.io/badge/-Integrations%20with:-blueviolet)
 ![](https://img.shields.io/badge/-TeamCity-lightgrey)
 
-### **4.** _(8/2013 - 2/2016)_ **Senior Software Developer** - Aviacode
+### **4. Senior Software Developer** - Aviacode
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_(8/2013 - 2/2016)_
 
 - Helped design and build new SaaS platform for medical coding professionals (built from the ground up using latest technologies and patterns)
   - Server-side distributed system
@@ -156,7 +178,9 @@ _Western Governors University, 2016_
 ![](https://img.shields.io/badge/-Integrations%20with:-blueviolet)
 ![](https://img.shields.io/badge/-TeamCity-lightgrey)
 
-### **3.** _(2/2005 - 7/2013)_ **Software Developer** - Centershift
+### **3. Software Developer** - Centershift
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_(2/2005 - 7/2013)_
 
 - Sole R&D role for the company - researched and spearheaded several initiatives to improve our software and SDLC
   - Agile project management
@@ -231,7 +255,9 @@ _Western Governors University, 2016_
 ![](https://img.shields.io/badge/-Credit%20Card%20Processors-lightgrey)
 ![](https://img.shields.io/badge/-Microsoft%20Dynamics%20C5-lightgrey)
 
-### **2.** _(7/2001 - 1/2005)_ **Consultant** - Keane, Inc.
+### **2. Consultant** - Keane, Inc.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_(7/2001 - 1/2005)_
 
 - Designed, built, and maintained several applications and databases for The Church of Jesus Christ of Latter-Day Saints, including:
   - Global missionary debit card stipend system
@@ -269,7 +295,9 @@ _Western Governors University, 2016_
 ![](https://img.shields.io/badge/-Handheld%20PCs-lightgrey)
 ![](https://img.shields.io/badge/-Scanners-lightgrey)
 
-### **1.** _(7/1999 - 7/2001)_ **Technical Research Assistant** - PEGUS Research
+### **1. Technical Research Assistant** - PEGUS Research
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_(7/1999 - 7/2001)_
 
 - Designed, built, and maintained several applications and databases, including:
   - Pharmaceutical research studies for companies such as Novartis and GlaxoSmithKlien

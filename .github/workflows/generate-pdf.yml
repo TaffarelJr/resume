@@ -28,7 +28,7 @@ jobs:
           sed -i '/^#### Table of Contents/,/^## /{/^## /!d}' README.md
           
           # Replace print-cutoff marker with a note, then delete everything after
-          sed -i 's/<!-- print-cutoff -->/*Additional experience (1999–2013) available at [taffareljr.github.io\/resume](https:\/\/taffareljr.github.io\/resume)*/' README.md
+          sed -i 's/<!-- print-cutoff -->/*Additional experience (1999–2013) available at [https:\/\/taffareljr.github.io\/resume](https:\/\/taffareljr.github.io\/resume)*/' README.md
           sed -i '/^### Centershift/,$d' README.md
 
       - name: Generate PDF

@@ -13,7 +13,7 @@ Herriman, UT 84096
 - [Education](#education)
 - [Professional Experience](#professional-experience)
   - [R1 RCM, Inc.](#r1-rcm-inc)
-    - [_(3/2023 - Present)_ Staff Software Engineer](#32023---present-staff-software-engineer)
+    - [_(3/2023 - Present)_ Staff Software Architect](#32023---present-staff-software-architect)
     - [_(7/2021 - 3/2023)_ Software Architect](#72021---32023-software-architect)
   - [Willis Towers Watson plc](#willis-towers-watson-plc)
     - [_(2/2017 - 7/2021)_ Software Architect](#22017---72021-software-architect)
@@ -69,10 +69,8 @@ _Western Governors University, 2016_
 
 ### R1 RCM, Inc.
 
-#### _(3/2023 - Present)_ Staff Software Engineer
+#### _(3/2023 - Present)_ Staff Software Architect
 
-- Position name change—the company decided to rename all Architect positions company-wide
-  and embed us on specific teams
 - Tech lead for the company's first AI app: an internal ChatGPT clone
   - Rapid training on bleeding-edge AI technologies
   - Kept the app up-to-date constantly as AI technology evolved and new features

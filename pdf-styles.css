@@ -137,6 +137,18 @@ img:not([src*="shields.io"]) {
   margin: 4px;
 }
 
+/* Remove underlines from certification image links */
+a:has(img:not([src*="shields.io"])) {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+/* Fallback for browsers without :has() support */
+p > a > img,
+a > img:not([src*="shields.io"]) {
+  text-decoration: none !important;
+}
+
 /* Horizontal rules (between cert groups) */
 hr {
   border: none;

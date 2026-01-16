@@ -2,29 +2,34 @@
 
 @page {
   size: letter;
-  margin: 0.75in;
+  margin: 0.5in;
 }
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 11pt;
-  line-height: 1.4;
+  font-size: 9.5pt;
+  line-height: 1.35;
   color: #333;
+}
+
+/* Hide the Pandoc-generated title block (we have our own H1 name header) */
+header.title-block-header {
+  display: none;
 }
 
 /* Header / Name */
 h1 {
-  font-size: 24pt;
-  margin-bottom: 0.25em;
+  font-size: 20pt;
+  margin-bottom: 0.2em;
   color: #1a1a1a;
 }
 
 /* Major sections: Summary, Skills, Education, Professional Experience, Past Certifications */
 h2 {
-  font-size: 14pt;
+  font-size: 12pt;
   border-bottom: 2px solid #0066cc;
-  padding-bottom: 0.2em;
-  margin-top: 1em;
+  padding-bottom: 0.15em;
+  margin-top: 0.8em;
   color: #0066cc;
   page-break-after: avoid;
   break-after: avoid;
@@ -32,9 +37,9 @@ h2 {
 
 /* Company names */
 h3 {
-  font-size: 12pt;
-  margin-top: 0.8em;
-  margin-bottom: 0.3em;
+  font-size: 10.5pt;
+  margin-top: 0.6em;
+  margin-bottom: 0.2em;
   color: #1a1a1a;
   page-break-after: avoid;
   break-after: avoid;
@@ -42,10 +47,10 @@ h3 {
 
 /* Job positions - NEVER span pages */
 h4 {
-  font-size: 11pt;
+  font-size: 9.5pt;
   font-weight: 600;
-  margin-top: 0.5em;
-  margin-bottom: 0.3em;
+  margin-top: 0.4em;
+  margin-bottom: 0.2em;
   color: #444;
   page-break-after: avoid;
   break-after: avoid;
@@ -82,8 +87,8 @@ article {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 0.5em 0;
-  font-size: 10pt;
+  margin: 0.4em 0;
+  font-size: 8.5pt;
   page-break-inside: avoid;
   break-inside: avoid;
 }
@@ -103,27 +108,32 @@ th {
 /* Contact info at top */
 h1 + p {
   margin-top: 0;
-  font-size: 10pt;
+  font-size: 8.5pt;
   color: #666;
 }
 
-/* Links */
+/* Links - make them visibly clickable */
 a {
   color: #0066cc;
+  text-decoration: underline;
+}
+
+/* But not for badge images or cert images */
+a:has(img) {
   text-decoration: none;
 }
 
 /* Badges - keep them inline and sized appropriately */
 img[src*="shields.io"] {
-  height: 18px;
+  height: 15px;
   vertical-align: middle;
   margin: 1px;
 }
 
 /* Certification images */
 img:not([src*="shields.io"]) {
-  max-height: 80px;
-  margin: 5px;
+  max-height: 70px;
+  margin: 4px;
 }
 
 /* Horizontal rules (between cert groups) */

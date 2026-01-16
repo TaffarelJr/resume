@@ -114,13 +114,30 @@ h1 + p {
 
 /* Links - make them visibly clickable */
 a {
-  color: #0066cc;
-  text-decoration: underline;
+  color: #0066cc !important;
+  text-decoration: underline !important;
+  text-decoration-color: #0066cc !important;
 }
 
 /* But not for badge images or cert images */
+a img {
+  text-decoration: none !important;
+}
+
 a:has(img) {
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+/* Page break controls - explicit breaks before specific companies */
+.page-break {
+  page-break-before: always !important;
+  break-before: page !important;
+}
+
+/* Keep company sections together where specified */
+.keep-together {
+  page-break-inside: avoid !important;
+  break-inside: avoid !important;
 }
 
 /* Badges - keep them inline and sized appropriately */

@@ -47,7 +47,7 @@ jobs:
           
           # Append note about additional experience
           echo '' >> README.md
-          echo '' >> README.md
+          echo '---' >> README.md
           echo '' >> README.md
           echo '*Additional experience (1999–2013) available at [https:\/\/taffareljr.github.io/resume](https:\/\/taffareljr.github.io/resume)*' >> README.md
 

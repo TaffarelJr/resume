@@ -37,30 +37,33 @@ including architecting a production ChatGPT clone
 and enabling natural language interfaces over an enterprise data warehouse.
 
 - **Architecture Focus:**
-  Domain-Driven Design, event-driven microservices, and clean code principles
+  DDD, event-driven microservices, and clean code principles
 - **Microsoft Stack Expert:**
   Deep expertise in .NET ecosystem since 1.0, Azure, and modern cloud-native patterns
 - **Full SDLC Experience:**
-  R&D, agile leadership, development, testing, CI/CD, infrastructure, and DevOps
+  R&D, agile, development, testing, CI/CD, infrastructure, and DevOps
 - **Force Multiplier:**
-  Passionate about mentoring developers, establishing best practices, and elevating team capabilities
+  Passionate about mentoring developers, establishing best practices,
+  elevating team capabilities, and producing high-quality output
 
 ## Skills
 
-| Domain                     | Technologies & Expertise                                                                               |
-| -------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Architecture**           | Domain-Driven Design, Bounded Contexts, Event-Driven, Microservices, CQRS, Clean/Explicit Architecture |
-| **AI & ML**                | LLMs, RAG, Semantic Kernel, Prompt Engineering, AI Agents, Vector Search, Azure OpenAI                 |
-| **Languages**              | C#, SQL, some web                                                                                      |
-| **Cloud & Infrastructure** | Azure (CosmosDB, Event Hubs, Service Bus, App Services), Terraform, Docker, CI/CD                      |
-| **Data**                   | SQL Server, CosmosDB, MongoDB, PostgreSQL, Snowflake, Event Sourcing                                   |
-| **Practices**              | TDD, Refactoring, Code Review, Pair Programming, Technical Mentorship                                  |
-| **Languages (Human)**      | English (native), Portuguese (quasi-fluent)                                                            |
+| Domain                | Technologies & Expertise                                                               |
+| --------------------- | -------------------------------------------------------------------------------------- |
+| **Architecture**      | DDD, Bounded Contexts, Event-Driven, Microservices, CQRS, Clean/Explicit Architecture  |
+| **AI & ML**           | LLMs, RAG, Semantic Kernel, Prompt Engineering, AI Agents, Vector Search, Azure OpenAI |
+| **Languages**         | C#, SQL, some web                                                                      |
+| **Cloud & Infra**     | Azure (CosmosDB, Event Hubs, Service Bus, App Services), Terraform, Docker, CI/CD      |
+| **Data**              | SQL Server, CosmosDB, MongoDB, PostgreSQL, Snowflake, Event Sourcing                   |
+| **Practices**         | TDD, Refactoring, Code Review, Pair Programming, Technical Mentorship                  |
+| **Languages (Human)** | English (native), Portuguese (quasi-fluent)                                            |
 
 ## Education
 
 B.S. in Information Technology - Software Emphasis  
 _Western Governors University, 2016_
+
+<div class="page-break"></div>
 
 ## Professional Experience
 
@@ -174,6 +177,8 @@ _Western Governors University, 2016_
   ![](https://img.shields.io/badge/-SonarQube-lightgray)
   ![](https://img.shields.io/badge/-SQL%20Server-blue)
 
+<div class="page-break"></div>
+
 ### Willis Towers Watson plc
 
 #### _(2/2017 - 7/2021)_ Software Architect
@@ -280,6 +285,8 @@ _Western Governors University, 2016_
   ![](https://img.shields.io/badge/-TypeScript-lightgray)
   ![](https://img.shields.io/badge/-WIF-lightgray)
   ![](https://img.shields.io/badge/-XML-lightgray)
+
+<div class="page-break"></div>
 
 ### Centershift, Inc.
 
@@ -393,6 +400,8 @@ _Western Governors University, 2016_
 - Provided general support for the rest of the development team.
   When anyone needed help, I was the one they came to.
 
+<div class="page-break"></div>
+
 ### Keane, Inc.
 
 #### _(7/2001 - 1/2005)_ Consultant
@@ -451,6 +460,8 @@ _Western Governors University, 2016_
     ![](https://img.shields.io/badge/-VBA-forestgreen)
     ![](https://img.shields.io/badge/-Windows%20API-lightgray)
 - Provided IT support throughout the company
+
+<div class="page-break"></div>
 
 ## Past Certifications
 

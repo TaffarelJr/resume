@@ -33,7 +33,7 @@ jobs:
           pandoc README.md \
             -f markdown \
             -t html \
-            --metadata title="RJ Hollberg - Resume" \
+            --metadata pagetitle="RJ Hollberg - Resume" \
             --css=pdf-styles.css \
             --embed-resources \
             --standalone \

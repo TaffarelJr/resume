@@ -22,16 +22,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc weasyprint
 
-      - name: Preprocess Markdown (trim for print)
+      - name: Remove ToC
         run: |
           # Remove the Table of Contents section
           sed -i '/^#### Table of Contents/,/^## /{/^## /!d}' README.md
-          
-          # Replace print-cutoff marker with a note, then delete everything after
-          sed -i 's/<!-- print-cutoff -->/*Additional experience (1999–2013) available at [https:\/\/taffareljr.github.io\/resume](https:\/\/taffareljr.github.io\/resume)*/' README.md
-          sed -i '/^### Centershift/,$d' README.md
 
-      - name: Generate PDF
+      - name: Generate full PDF
         run: |
           pandoc README.md \
             -f markdown \
@@ -40,21 +36,39 @@ jobs:
             --css=pdf-styles.css \
             --embed-resources \
             --standalone \
-            -o Resume.pdf \
+            -o Resume_Full.pdf \
             --pdf-engine=weasyprint
 
-      - name: Restore README.md (undo ToC removal)
+      - name: Trim old Data
+        run: |
+          # Replace print-cutoff marker with a note, then delete everything after
+          sed -i 's/<!-- print-cutoff -->/*Additional experience (1999–2013) available at [https:\/\/taffareljr.github.io\/resume](https:\/\/taffareljr.github.io\/resume)*/' README.md
+          sed -i '/^### Centershift/,$d' README.md
+
+      - name: Generate brief PDF
+        run: |
+          pandoc README.md \
+            -f markdown \
+            -t html \
+            --metadata pagetitle="RJ Hollberg - Resume" \
+            --css=pdf-styles.css \
+            --embed-resources \
+            --standalone \
+            -o Resume_Brief.pdf \
+            --pdf-engine=weasyprint
+
+      - name: Restore README.md
         run: |
           git checkout README.md
 
-      - name: Commit PDF to PR branch
+      - name: Commit PDFs to PR branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add Resume.pdf
+          git add Resume_Full.pdf Resume_Brief.pdf
           if git diff --staged --quiet; then
-            echo "No changes to PDF"
+            echo "No changes to PDFs"
           else
-            git commit -m "Generate Resume.pdf from README.md"
+            git commit -m "Generate Resume PDFs from README.md"
             git push
           fi

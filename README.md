@@ -286,7 +286,7 @@ _Western Governors University, 2016_
   ![](https://img.shields.io/badge/-WIF-lightgray)
   ![](https://img.shields.io/badge/-XML-lightgray)
 
-<div class="page-break"></div>
+<!-- print-cutoff -->
 
 ### Centershift, Inc.
 
@@ -400,8 +400,6 @@ _Western Governors University, 2016_
 - Provided general support for the rest of the development team.
   When anyone needed help, I was the one they came to.
 
-<div class="page-break"></div>
-
 ### Keane, Inc.
 
 #### _(7/2001 - 1/2005)_ Consultant
@@ -460,8 +458,6 @@ _Western Governors University, 2016_
     ![](https://img.shields.io/badge/-VBA-forestgreen)
     ![](https://img.shields.io/badge/-Windows%20API-lightgray)
 - Provided IT support throughout the company
-
-<div class="page-break"></div>
 
 ## Past Certifications
 

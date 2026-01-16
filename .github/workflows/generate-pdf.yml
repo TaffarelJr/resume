@@ -22,11 +22,14 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc weasyprint
 
-      - name: Preprocess Markdown (remove ToC)
+      - name: Preprocess Markdown (trim for print)
         run: |
           # Remove the Table of Contents section
-          # Matches from "#### Table of Contents" to the next "## " heading
           sed -i '/^#### Table of Contents/,/^## /{/^## /!d}' README.md
+          
+          # Replace print-cutoff marker with a note, then delete everything after
+          sed -i 's/<!-- print-cutoff -->/*Additional experience (1999–2013) available at [taffareljr.github.io\/resume](https:\/\/taffareljr.github.io\/resume)*/' README.md
+          sed -i '/^### Centershift/,$d' README.md
 
       - name: Generate PDF
         run: |

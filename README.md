@@ -3,8 +3,8 @@
 14294 Pepper Grass Lane  
 Herriman, UT 84096  
 801-558-3812  
-rj.hollberg@outlook.com  
-https://taffareljr.github.io/resume
+[rj.hollberg@outlook.com](mailto:rj.hollberg@outlook.com)  
+[taffareljr.github.io/resume](https://taffareljr.github.io/resume)
 
 #### Table of Contents <!-- omit in toc -->
 
@@ -39,7 +39,7 @@ and enabling natural language interfaces over an enterprise data warehouse.
 - **Architecture Focus:**
   DDD, event-driven microservices, and clean code principles
 - **Microsoft Stack Expert:**
-  Deep expertise in .NET ecosystem since 1.0, Azure, and modern cloud-native patterns
+  Deep expertise in .NET ecosystem since 1.0, Azure, and cloud-native development
 - **Full SDLC Experience:**
   R&D, agile, development, testing, CI/CD, infrastructure, and DevOps
 - **Force Multiplier:**
@@ -286,7 +286,7 @@ _Western Governors University, 2016_
   ![](https://img.shields.io/badge/-WIF-lightgray)
   ![](https://img.shields.io/badge/-XML-lightgray)
 
-<div class="page-break"></div>
+<!-- print-cutoff -->
 
 ### Centershift, Inc.
 
@@ -400,8 +400,6 @@ _Western Governors University, 2016_
 - Provided general support for the rest of the development team.
   When anyone needed help, I was the one they came to.
 
-<div class="page-break"></div>
-
 ### Keane, Inc.
 
 #### _(7/2001 - 1/2005)_ Consultant
@@ -460,8 +458,6 @@ _Western Governors University, 2016_
     ![](https://img.shields.io/badge/-VBA-forestgreen)
     ![](https://img.shields.io/badge/-Windows%20API-lightgray)
 - Provided IT support throughout the company
-
-<div class="page-break"></div>
 
 ## Past Certifications
 

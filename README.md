@@ -1,4 +1,4 @@
-# RJ Hollberg
+# RJ Hollberg <!-- omit in toc -->
 
 14294 Pepper Grass Lane  
 Herriman, UT 84096  
@@ -6,193 +6,319 @@ Herriman, UT 84096
 rj.hollberg@outlook.com  
 https://taffareljr.github.io/resume
 
-## Table of Contents
+#### Table of Contents <!-- omit in toc -->
 
-- [RJ Hollberg](#rj-hollberg)
-  - [Table of Contents](#table-of-contents)
-  - [Summary](#summary)
-  - [Education](#education)
-  - [Certifications](#certifications)
-  - [Skills](#skills)
-  - [Professional Experience](#professional-experience)
-    - [**6. Software Architect** - Willis Towers Watson](#6-software-architect---willis-towers-watson)
-    - [**5. Senior Software Developer** - Willis Towers Watson](#5-senior-software-developer---willis-towers-watson)
-    - [**4. Senior Software Developer** - Aviacode](#4-senior-software-developer---aviacode)
-    - [**3. Software Developer** - Centershift](#3-software-developer---centershift)
-    - [**2. Consultant** - Keane, Inc.](#2-consultant---keane-inc)
-    - [**1. Technical Research Assistant** - PEGUS Research](#1-technical-research-assistant---pegus-research)
+- [Summary](#summary)
+- [Skills](#skills)
+- [Education](#education)
+- [Professional Experience](#professional-experience)
+  - [R1 RCM, Inc.](#r1-rcm-inc)
+    - [_(3/2023 - Present)_ Staff Software Engineer](#32023---present-staff-software-engineer)
+    - [_(7/2021 - 3/2023)_ Software Architect](#72021---32023-software-architect)
+  - [Willis Towers Watson plc](#willis-towers-watson-plc)
+    - [_(2/2017 - 7/2021)_ Software Architect](#22017---72021-software-architect)
+    - [_(3/2016 - 2/2017)_ Senior Software Developer](#32016---22017-senior-software-developer)
+  - [Aviacode, Inc.](#aviacode-inc)
+    - [_(8/2013 - 2/2016)_ Senior Software Developer](#82013---22016-senior-software-developer)
+  - [Centershift, Inc.](#centershift-inc)
+    - [_(2/2005 - 7/2013)_ Software Developer](#22005---72013-software-developer)
+  - [Keane, Inc.](#keane-inc)
+    - [_(7/2001 - 1/2005)_ Consultant](#72001---12005-consultant)
+  - [PEGUS Research, Inc.](#pegus-research-inc)
+    - [_(7/1999 - 7/2001)_ Technical Research Assistant](#71999---72001-technical-research-assistant)
+- [Past Certifications](#past-certifications)
 
 ## Summary
 
-- Software architect with 20+ years of experience
-- Skilled in server-side architecture, with a particular focus on clean code, extensibility, performance, & scalability
-- Specialization in Microsoft .NET technologies, since their inception
-- Experienced in virtually all areas of the SDLC: R&D, agile, development, infrastructure, CI/CD, etc.
-- Detail-oriented and highly motivated, with a passion for software and technology
+Software Architect and technical leader with **25+ years** of hands-on experience
+designing and delivering products, including enterprise-scale distributed systems.
+Currently leading AI initiatives,
+including architecting a production ChatGPT clone
+and enabling natural language interfaces over an enterprise data warehouse.
+
+- **Architecture Focus:**
+  Domain-Driven Design, event-driven microservices, and clean code principles
+- **Microsoft Stack Expert:**
+  Deep expertise in .NET ecosystem since 1.0, Azure, and modern cloud-native patterns
+- **Full SDLC Experience:**
+  R&D, agile leadership, development, testing, CI/CD, infrastructure, and DevOps
+- **Force Multiplier:**
+  Passionate about mentoring developers, establishing best practices, and elevating team capabilities
+
+## Skills
+
+| Domain                     | Technologies & Expertise                                                                               |
+| -------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Architecture**           | Domain-Driven Design, Bounded Contexts, Event-Driven, Microservices, CQRS, Clean/Explicit Architecture |
+| **AI & ML**                | LLMs, RAG, Semantic Kernel, Prompt Engineering, AI Agents, Vector Search, Azure OpenAI                 |
+| **Languages**              | C#, SQL, some web                                                                                      |
+| **Cloud & Infrastructure** | Azure (CosmosDB, Event Hubs, Service Bus, App Services), Terraform, Docker, CI/CD                      |
+| **Data**                   | SQL Server, CosmosDB, MongoDB, PostgreSQL, Snowflake, Event Sourcing                                   |
+| **Practices**              | TDD, Refactoring, Code Review, Pair Programming, Technical Mentorship                                  |
+| **Languages (Human)**      | English (native), Portuguese (quasi-fluent)                                                            |
 
 ## Education
 
 B.S. in Information Technology - Software Emphasis  
 _Western Governors University, 2016_
 
-## Certifications
-
-<a href="Microsoft/MCPS/MS_Cert_Professional_logo_Blk_rgb.png"><img src="Microsoft/MCPS/MS_Cert_Professional_logo_Blk_rgb.png" width="100" align="top"></a>
-<a href="Microsoft/MTA/Software%20Development/MTA_SoftDev_Blk.png"><img src="Microsoft/MTA/Software%20Development/MTA_SoftDev_Blk.png" width="100" align="top"></a>
-<a href="Microsoft/MTA/Web%20Development/MTA_WebDev_Blk.png"><img src="Microsoft/MTA/Web%20Development/MTA_WebDev_Blk.png" width="100" align="top"></a>
-<a href="Microsoft/MTA/Database/MTA_Database_Blk.png"><img src="Microsoft/MTA/Database/MTA_Database_Blk.png" width="100" align="top"></a>
-<a href="Microsoft/MTA/Networking/MTA_Network_Blk.png"><img src="Microsoft/MTA/Networking/MTA_Network_Blk.png" width="100" align="top"></a>
-<a href="Microsoft/MTA/Security/MTA_Security_Blk.png"><img src="Microsoft/MTA/Security/MTA_Security_Blk.png" width="100" align="top"></a>
-
-<a href="CompTIA/A%2B%20ce/Aplus%20Logo%20Certified%20CE.png"><img src="CompTIA/A%2B%20ce/Aplus%20Logo%20Certified%20CE.png" width="60" align="top"></a>
-<a href="CompTIA/Network%2B%20ce/NetworkPlus%20Logo%20Certified%20CE.png"><img src="CompTIA/Network%2B%20ce/NetworkPlus%20Logo%20Certified%20CE.png" width="60" align="top"></a>
-<a href="CompTIA/Security%2B%20ce/SecurityPlus%20Logo%20Certified%20CE.png"><img src="CompTIA/Security%2B%20ce/SecurityPlus%20Logo%20Certified%20CE.png" width="60" align="top"></a>
-<a href="CompTIA/Project%2B/ProjectPlus%20Logo%20Certified.png"><img src="CompTIA/Project%2B/ProjectPlus%20Logo%20Certified.png" width="60" align="top"></a>
-
-<a href="CIW/CIW%20Web%20Foundations%20Associate%20Logo.jpg"><img src="CIW/CIW%20Web%20Foundations%20Associate%20Logo.jpg" width="60" align="top"></a>
-<a href="CIW/CIW%20Web%20Design%20Specialist%20Logo.jpg"><img src="CIW/CIW%20Web%20Design%20Specialist%20Logo.jpg" width="60" align="top"></a>
-<a href="CIW/CIW%20JavaScript%20Specialist%20Logo.jpg"><img src="CIW/CIW%20JavaScript%20Specialist%20Logo.jpg" width="60" align="top"></a>
-<a href="CIW/CIW%20Database%20Design%20Specialist%20Logo.jpg"><img src="CIW/CIW%20Database%20Design%20Specialist%20Logo.jpg" width="60" align="top"></a>
-
-## Skills
-
-- Architecture: CQRS / event-driven / serverless / asynchronous is my primary focus
-- Very proficient in the Microsoft stack, including tools, servers, and Azure
-- Self-study is my hobby
-- Fluent in Portuguese
-
 ## Professional Experience
 
-### **6. Software Architect** - Willis Towers Watson
+### R1 RCM, Inc.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_(2/2017 - Current)_
+#### _(3/2023 - Present)_ Staff Software Engineer
 
-- Worked with several dev teams, with a specific focus on:
+- Position name change—the company decided to rename all Architect positions company-wide
+  and embed us on specific teams
+- Tech lead for the company's first AI app: an internal ChatGPT clone
+  - Rapid training on bleeding-edge AI technologies
+  - Kept the app up-to-date constantly as AI technology evolved and new features
+    were requested, iterating through increasingly complex architectures
+  - Roughly on-par with ChatGPT functionality  
+    ![](https://img.shields.io/badge/-.NET-forestgreen)
+    ![](https://img.shields.io/badge/-AI-red)
+    ![](https://img.shields.io/badge/-AISearch-lightgray)
+    ![](https://img.shields.io/badge/-AppInsights-lightgray)
+    ![](https://img.shields.io/badge/-Azure-lightgray)
+    ![](https://img.shields.io/badge/-Azure%20DevOps-orange)
+    ![](https://img.shields.io/badge/-C%23-forestgreen)
+    ![](https://img.shields.io/badge/-Confluence-lightgray)
+    ![](https://img.shields.io/badge/-CosmosDB-blue)
+    ![](https://img.shields.io/badge/-DocIntel-lightgray)
+    ![](https://img.shields.io/badge/-Docker-lightgray)
+    ![](https://img.shields.io/badge/-EventHubs-lightgray)
+    ![](https://img.shields.io/badge/-Git-orange)
+    ![](https://img.shields.io/badge/-GitHub%20Enterprise-orange)
+    ![](https://img.shields.io/badge/-Kafka-lightgray)
+    ![](https://img.shields.io/badge/-Kernel%20Memory-red)
+    ![](https://img.shields.io/badge/-LLM-red)
+    ![](https://img.shields.io/badge/-MCP-lightgray)
+    ![](https://img.shields.io/badge/-MongoDB-blue)
+    ![](https://img.shields.io/badge/-Moq-lightgray)
+    ![](https://img.shields.io/badge/-NextJS-lightgray)
+    ![](https://img.shields.io/badge/-NuGet-lightgray)
+    ![](https://img.shields.io/badge/-OpenAPI-lightgray)
+    ![](https://img.shields.io/badge/-OpenTelemetry-lightgray)
+    ![](https://img.shields.io/badge/-Prompt%20Engineering-red)
+    ![](https://img.shields.io/badge/-React-lightgray)
+    ![](https://img.shields.io/badge/-Semantic%20Kernel-red)
+    ![](https://img.shields.io/badge/-Serilog-lightgray)
+    ![](https://img.shields.io/badge/-SignalR-lightgray)
+    ![](https://img.shields.io/badge/-SonarQube-lightgray)
+    ![](https://img.shields.io/badge/-Terraform-lightgray)
+- Recently joined a BI team where I'm applying my recent AI expertise
+  - Moving to allow users to chat with AI over our entire Data Warehouse
+  - Customizing AI Agents and various prompt instructions for vibe coding
+  - Planning major migration between Azure tenants  
+    ![](https://img.shields.io/badge/-.NET-forestgreen)
+    ![](https://img.shields.io/badge/-Agents-red)
+    ![](https://img.shields.io/badge/-AI-red)
+    ![](https://img.shields.io/badge/-Angular-lightgray)
+    ![](https://img.shields.io/badge/-AppInsights-lightgray)
+    ![](https://img.shields.io/badge/-Azure-lightgray)
+    ![](https://img.shields.io/badge/-Azure%20DevOps-orange)
+    ![](https://img.shields.io/badge/-C%23-forestgreen)
+    ![](https://img.shields.io/badge/-Confluence-lightgray)
+    ![](https://img.shields.io/badge/-EF%20Core-lightgray)
+    ![](https://img.shields.io/badge/-Git-orange)
+    ![](https://img.shields.io/badge/-GitHub%20Enterprise-orange)
+    ![](https://img.shields.io/badge/-LLM-red)
+    ![](https://img.shields.io/badge/-MCP-lightgray)
+    ![](https://img.shields.io/badge/-Moq-lightgray)
+    ![](https://img.shields.io/badge/-NuGet-lightgray)
+    ![](https://img.shields.io/badge/-Prompt%20Engineering-red)
+    ![](https://img.shields.io/badge/-Serilog-lightgray)
+    ![](https://img.shields.io/badge/-ServiceBus-lightgray)
+    ![](https://img.shields.io/badge/-SignalR-lightgray)
+    ![](https://img.shields.io/badge/-SonarQube-lightgray)
+    ![](https://img.shields.io/badge/-Snowflake-blue)
+    ![](https://img.shields.io/badge/-SQL%20Server-blue)
+    ![](https://img.shields.io/badge/-Terraform-lightgray)
+
+#### _(7/2021 - 3/2023)_ Software Architect
+
+- Worked with Accounts Receivable teams to design a migration of our
+  legacy, monolithic apps towards a newer architecture consisting of:
+  - Microservices
+  - Domain-Driven Design (esp. Bounded Contexts)
+  - Event-Driven architecture (between microservices)
+  - Explicit Architecture (inside microservices)
+- Presented on various technologies and architectural concepts
+  for coworkers, other Architects, and management
+- Conducted the pilot for GitHub Enterprise
+  - Managed all configuration
+  - Built and maintained custom build agents
+  - Onboarded the entire development staff (and management)
+  - Designed and executed the transition strategy from Jira
+  - Trained new dedicated GitHub team, then handed off to them
+- Built and maintained several packages shared across microservices,
+  addressing cross-cutting concerns  
+  ![](https://img.shields.io/badge/-.NET-forestgreen)
+  ![](https://img.shields.io/badge/-AppInsights-lightgray)
+  ![](https://img.shields.io/badge/-Artifactory-lightgray)
+  ![](https://img.shields.io/badge/-Azure-lightgray)
+  ![](https://img.shields.io/badge/-C%23-forestgreen)
+  ![](https://img.shields.io/badge/-Cake-lightgray)
+  ![](https://img.shields.io/badge/-Confluence-lightgray)
+  ![](https://img.shields.io/badge/-CosmosDB-blue)
+  ![](https://img.shields.io/badge/-EventHubs-lightgray)
+  ![](https://img.shields.io/badge/-Git-orange)
+  ![](https://img.shields.io/badge/-GitHub%20Enterprise-orange)
+  ![](https://img.shields.io/badge/-Jira-orange)
+  ![](https://img.shields.io/badge/-Kafka-lightgray)
+  ![](https://img.shields.io/badge/-MongoDB-blue)
+  ![](https://img.shields.io/badge/-Moq-lightgray)
+  ![](https://img.shields.io/badge/-NuGet-lightgray)
+  ![](https://img.shields.io/badge/-React-lightgray)
+  ![](https://img.shields.io/badge/-Serilog-lightgray)
+  ![](https://img.shields.io/badge/-SonarQube-lightgray)
+  ![](https://img.shields.io/badge/-SQL%20Server-blue)
+
+### Willis Towers Watson plc
+
+#### _(2/2017 - 7/2021)_ Software Architect
+
+- Promotion—worked with several dev teams as a force-multiplier,
+  with a specific focus on:
   - Helping teams redesign legacy code as event-based microservices
   - Using refactoring to arrive at those designs (instead of full-scale rewrites)
   - Assisting teams as they migrated to new CI/CD tooling
   - Coordinating integration between teams & their microservices
   - Recommending best practices, patterns, and strategies
-  - Assisting developers to grow their personal software skills and plan for their careers (mentoring)
-- Used Terraform to build out IaC environments in Azure
-- Built several NuGet packages to be shared across microservices, addressing cross-cutting concerns
+  - Assisting developers to grow their personal software skills
+    and plan for their careers (mentoring)
+- Built out IaC environments in Azure
+- Built and maintained several packages shared across microservices,
+  addressing cross-cutting concerns  
+  ![](https://img.shields.io/badge/-.NET-forestgreen)
+  ![](https://img.shields.io/badge/-AppInsights-lightgray)
+  ![](https://img.shields.io/badge/-AppMetrics-lightgray)
+  ![](https://img.shields.io/badge/-Auth0-lightgray)
+  ![](https://img.shields.io/badge/-Azure-lightgray)
+  ![](https://img.shields.io/badge/-C%23-forestgreen)
+  ![](https://img.shields.io/badge/-Cake-lightgray)
+  ![](https://img.shields.io/badge/-CosmosDB-blue)
+  ![](https://img.shields.io/badge/-Dapper-lightgray)
+  ![](https://img.shields.io/badge/-Docker-lightgray)
+  ![](https://img.shields.io/badge/-EventHubs-lightgray)
+  ![](https://img.shields.io/badge/-Git-orange)
+  ![](https://img.shields.io/badge/-GitHub%20Enterprise-orange)
+  ![](https://img.shields.io/badge/-Kafka-lightgray)
+  ![](https://img.shields.io/badge/-Marten-lightgray)
+  ![](https://img.shields.io/badge/-MongoDB-blue)
+  ![](https://img.shields.io/badge/-Moq-lightgray)
+  ![](https://img.shields.io/badge/-NuGet-lightgray)
+  ![](https://img.shields.io/badge/-Octopus%20Deploy-lightgray)
+  ![](https://img.shields.io/badge/-PagerDuty-lightgray)
+  ![](https://img.shields.io/badge/-PostgreSQL-blue)
+  ![](https://img.shields.io/badge/-RavenDB-blue)
+  ![](https://img.shields.io/badge/-React-lightgray)
+  ![](https://img.shields.io/badge/-Serilog-lightgray)
+  ![](https://img.shields.io/badge/-SignalR-lightgray)
+  ![](https://img.shields.io/badge/-SQL%20Server-blue)
+  ![](https://img.shields.io/badge/-Sumo%20Logic-lightgray)
+  ![](https://img.shields.io/badge/-TeamCity-orange)
+  ![](https://img.shields.io/badge/-Terraform-forestgreen)
 
-![](https://img.shields.io/badge/-Languages:-red)
-![](https://img.shields.io/badge/-C%23-lightgrey)
-![](https://img.shields.io/badge/-Terraform-lightgrey)
+#### _(3/2016 - 2/2017)_ Senior Software Developer
 
-![](https://img.shields.io/badge/-Databases:-blue)
-![](https://img.shields.io/badge/-RavenDB-lightgrey)
-![](https://img.shields.io/badge/-PostgreSQL-lightgrey)
-![](https://img.shields.io/badge/-SQL%20Server-lightgrey)
-![](https://img.shields.io/badge/-CosmosDB-lightgrey)
-
-![](https://img.shields.io/badge/-Technologies:-brightgreen)
-![](https://img.shields.io/badge/-Git-lightgrey)
-![](https://img.shields.io/badge/-Marten-lightgrey)
-![](https://img.shields.io/badge/-Moq-lightgrey)
-![](https://img.shields.io/badge/-Serilog-lightgrey)
-![](https://img.shields.io/badge/-App%20Metrics-lightgrey)
-![](https://img.shields.io/badge/-Cake-lightgrey)
-![](https://img.shields.io/badge/-Docker-lightgrey)
-![](https://img.shields.io/badge/-Azure-lightgrey)
-![](https://img.shields.io/badge/-React-lightgrey)
-![](https://img.shields.io/badge/-SignalR-lightgrey)
-
-![](https://img.shields.io/badge/-Integrations%20with:-blueviolet)
-![](https://img.shields.io/badge/-Auth0-lightgrey)
-![](https://img.shields.io/badge/-GitHub%20Enterprise-lightgrey)
-![](https://img.shields.io/badge/-TeamCity-lightgrey)
-![](https://img.shields.io/badge/-Octopus%20Deploy-lightgrey)
-![](https://img.shields.io/badge/-Sumo%20Logic-lightgrey)
-![](https://img.shields.io/badge/-PagerDuty-lightgrey)
-
-### **5. Senior Software Developer** - Willis Towers Watson
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_(3/2016 - 2/2017)_
-
-- Played a central role in designing and implementing strategy for migrating to new database technology
-  - Created efficient tooling to perform automated document migration and verification
+- Played a central role in designing and implementing the strategy
+  for migrating to new database technology
+  - Created efficient tooling to perform automated document migration and validation
 - General bugfixes, improving the performance of various components across our system
   - Improved the performance of our largest query by 50-80%
-- Explored options for moving our legacy monolith code to microservices
+- Explored options for moving our legacy monolith code to microservices  
+  ![](https://img.shields.io/badge/-.NET-forestgreen)
+  ![](https://img.shields.io/badge/-C%23-forestgreen)
+  ![](https://img.shields.io/badge/-Dapper-lightgray)
+  ![](https://img.shields.io/badge/-Git-orange)
+  ![](https://img.shields.io/badge/-Marten-lightgray)
+  ![](https://img.shields.io/badge/-Moq-lightgray)
+  ![](https://img.shields.io/badge/-NuGet-lightgray)
+  ![](https://img.shields.io/badge/-PostgreSQL-blue)
+  ![](https://img.shields.io/badge/-RavenDB-blue)
+  ![](https://img.shields.io/badge/-Storyteller-lightgray)
+  ![](https://img.shields.io/badge/-StructureMap-lightgray)
+  ![](https://img.shields.io/badge/-TeamCity-orange)
 
-![](https://img.shields.io/badge/-Languages:-red)
-![](https://img.shields.io/badge/-C%23-lightgrey)
+### Aviacode, Inc.
 
-![](https://img.shields.io/badge/-Databases:-blue)
-![](https://img.shields.io/badge/-RavenDB-lightgrey)
-![](https://img.shields.io/badge/-PostgreSQL-lightgrey)
+#### _(8/2013 - 2/2016)_ Senior Software Developer
 
-![](https://img.shields.io/badge/-Technologies:-brightgreen)
-![](https://img.shields.io/badge/-Git-lightgrey)
-![](https://img.shields.io/badge/-StructureMap-lightgrey)
-![](https://img.shields.io/badge/-Marten-lightgrey)
-![](https://img.shields.io/badge/-Storyteller-lightgrey)
-![](https://img.shields.io/badge/-Dapper-lightgrey)
-![](https://img.shields.io/badge/-Moq-lightgrey)
-
-![](https://img.shields.io/badge/-Integrations%20with:-blueviolet)
-![](https://img.shields.io/badge/-TeamCity-lightgrey)
-
-### **4. Senior Software Developer** - Aviacode
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_(8/2013 - 2/2016)_
-
-- Helped design and build new SaaS platform for medical coding professionals (built from the ground up using latest technologies and patterns)
+- Helped design and build new SaaS platform for medical coding professionals, including:
   - Server-side distributed system
   - Onion architecture
   - Durable messaging
   - Document storage
   - Client-side SPA
-- Specific focus on back-end processes and authentication
+- Specific focus on back-end processes and security
+- Got to work under some truly amazing architects.
+  While I wasn't the one driving this time around, I learned a lot.  
+  ![](https://img.shields.io/badge/-.NET-forestgreen)
+  ![](https://img.shields.io/badge/-AJAX-lightgray)
+  ![](https://img.shields.io/badge/-AngularJS-blueviolet)
+  ![](https://img.shields.io/badge/-Angular%202-blueviolet)
+  ![](https://img.shields.io/badge/-ASP.NET-lightgray)
+  ![](https://img.shields.io/badge/-Autofac-lightgray)
+  ![](https://img.shields.io/badge/-C%23-forestgreen)
+  ![](https://img.shields.io/badge/-CSS%203-lightgray)
+  ![](https://img.shields.io/badge/-Git-orange)
+  ![](https://img.shields.io/badge/-HTML%205-lightgray)
+  ![](https://img.shields.io/badge/-IIS-lightgray)
+  ![](https://img.shields.io/badge/-JavaScript-lightgray)
+  ![](https://img.shields.io/badge/-JQuery-lightgray)
+  ![](https://img.shields.io/badge/-JSON-lightgray)
+  ![](https://img.shields.io/badge/-Mercurial-orange)
+  ![](https://img.shields.io/badge/-MSMQ-lightgray)
+  ![](https://img.shields.io/badge/-NHibernate-lightgray)
+  ![](https://img.shields.io/badge/-NuGet-lightgray)
+  ![](https://img.shields.io/badge/-RavenDB-blue)
+  ![](https://img.shields.io/badge/-Rhino%20Mocks-lightgray)
+  ![](https://img.shields.io/badge/-SAML-lightgray)
+  ![](https://img.shields.io/badge/-T4-lightgray)
+  ![](https://img.shields.io/badge/-TeamCity-orange)
+  ![](https://img.shields.io/badge/-TypeScript-lightgray)
+  ![](https://img.shields.io/badge/-WIF-lightgray)
+  ![](https://img.shields.io/badge/-XML-lightgray)
 
-![](https://img.shields.io/badge/-Languages:-red)
-![](https://img.shields.io/badge/-C%23-lightgrey)
-![](https://img.shields.io/badge/-HTML%205-lightgrey)
-![](https://img.shields.io/badge/-CSS%203-lightgrey)
-![](https://img.shields.io/badge/-JavaScript-lightgrey)
-![](https://img.shields.io/badge/-TypeScript-lightgrey)
-![](https://img.shields.io/badge/-XML-lightgrey)
-![](https://img.shields.io/badge/-JSON-lightgrey)
-![](https://img.shields.io/badge/-T4-lightgrey)
+### Centershift, Inc.
 
-![](https://img.shields.io/badge/-Databases:-blue)
-![](https://img.shields.io/badge/-RavenDB-lightgrey)
+#### _(2/2005 - 7/2013)_ Software Developer
 
-![](https://img.shields.io/badge/-Technologies:-brightgreen)
-![](https://img.shields.io/badge/-Mercurial-lightgrey)
-![](https://img.shields.io/badge/-Git-lightgrey)
-![](https://img.shields.io/badge/-ASP.NET-lightgrey)
-![](https://img.shields.io/badge/-Autofac-lightgrey)
-![](https://img.shields.io/badge/-NHibernate-lightgrey)
-![](https://img.shields.io/badge/-MSMQ-lightgrey)
-![](https://img.shields.io/badge/-AJAX-lightgrey)
-![](https://img.shields.io/badge/-JQuery-lightgrey)
-![](https://img.shields.io/badge/-AngularJS-lightgrey)
-![](https://img.shields.io/badge/-IIS-lightgrey)
-![](https://img.shields.io/badge/-WIF-lightgrey)
-![](https://img.shields.io/badge/-SAML-lightgrey)
-![](https://img.shields.io/badge/-Rhino%20Mocks-lightgrey)
-
-![](https://img.shields.io/badge/-Integrations%20with:-blueviolet)
-![](https://img.shields.io/badge/-TeamCity-lightgrey)
-
-### **3. Software Developer** - Centershift
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_(2/2005 - 7/2013)_
-
-- Sole R&D role for the company - researched and spearheaded several initiatives to improve our software and SDLC
-  - Agile project management
-  - Centralized source control & branching strategies (Team Foundation Server)
-  - Patterns & practices: SOLID, OOP, DDD, SOA, Clean Code, Code Contracts
-  - Development techniques: craftsmanship, refactoring, pair programming
-  - Testing techniques: TDD, test pyramid, automation, mocks
-  - Virtual dynamic test lab
-  - Automated CI builds
-  - Automated CD and log aggregation
-- Architect and lead developer on vNext SaaS platform
-  - Built and maintained critical components for other developers, including:
+- While the company used the same title for all developers,
+  I served in the sole R&D/architect position.
+- Researched and spearheaded several initiatives to improve our software and SDLC, including:
+  - Project management  
+    ![](https://img.shields.io/badge/-Agile-lightgray)
+    ![](https://img.shields.io/badge/-Scrum-lightgray)
+    - Led a 2-day conference to train the entire company
+    - Helped train other companies with a coworker as a side gig
+  - Centralized source control  
+    ![](https://img.shields.io/badge/-Hypervisor-lightgray)
+    ![](https://img.shields.io/badge/-TFS-lightgray)
+    ![](https://img.shields.io/badge/-VM-lightgray)
+    ![](https://img.shields.io/badge/-VNet-lightgray)
+    - Automated CI/CD and log aggregation
+    - Virtual dynamic test lab
+    - Branching strategies
+  - Patterns & practices  
+    ![](https://img.shields.io/badge/-Clean%20Code-lightgray)
+    ![](https://img.shields.io/badge/-Code%20Contracts-lightgray)
+    ![](https://img.shields.io/badge/-DDD-lightgray)
+    ![](https://img.shields.io/badge/-OOP-lightgray)
+    ![](https://img.shields.io/badge/-SOA-lightgray)
+    ![](https://img.shields.io/badge/-SOLID-lightgray)
+  - Development techniques  
+    ![](https://img.shields.io/badge/-Craftsmanship-lightgray)
+    ![](https://img.shields.io/badge/-Pair%20Programming-lightgray)
+    ![](https://img.shields.io/badge/-Refactoring-lightgray)
+  - Testing techniques  
+    ![](https://img.shields.io/badge/-Mocks-lightgray)
+    ![](https://img.shields.io/badge/-Test%20Automation-lightgray)
+    ![](https://img.shields.io/badge/-Test%20Pyramid-lightgray)
+    ![](https://img.shields.io/badge/-TDD-lightgray)
+- Architect and lead developer on _vNext_ SaaS platform
+  - Built and maintained core components for other developers, including:
     - CI/CD pipeline
     - Automated test environment
     - Project architecture
@@ -200,118 +326,221 @@ _Western Governors University, 2016_
     - Data access
     - Security
     - Credit card processing
-  - Much more robust than anything the company had built before
+  - Platform was much more robust than anything the company had built before
   - Single codebase, built & optimized for multiple target platforms
-  - 10,000+ unit & integration tests run against each target platform, all in <5 mins
-  - Maintained >=90% code coverage
-- Lead developer for current SaaS platform. Significant contributions include:
+  - 10,000+ unit & integration tests ran against each target platform, all in <5 mins
+  - Maintained >=90% code coverage  
+    ![](https://img.shields.io/badge/-.NET-forestgreen)
+    ![](https://img.shields.io/badge/-ADO.NET-lightgray)
+    ![](https://img.shields.io/badge/-ASP.NET-lightgray)
+    ![](https://img.shields.io/badge/-C%23-forestgreen)
+    ![](https://img.shields.io/badge/-ClickOnce-lightgray)
+    ![](https://img.shields.io/badge/-Code%20Contracts-lightgray)
+    ![](https://img.shields.io/badge/-Dotfuscator-lightgray)
+    ![](https://img.shields.io/badge/-Encryption-lightgray)
+    ![](https://img.shields.io/badge/-EF-lightgray)
+    ![](https://img.shields.io/badge/-Globalization-lightgray)
+    ![](https://img.shields.io/badge/-IdentityServer-lightgray)
+    ![](https://img.shields.io/badge/-IIS-lightgray)
+    ![](https://img.shields.io/badge/-Infragistics-lightgray)
+    ![](https://img.shields.io/badge/-InstallShield-lightgray)
+    ![](https://img.shields.io/badge/-LLBLGen%20Pro-lightgray)
+    ![](https://img.shields.io/badge/-Moq-lightgray)
+    ![](https://img.shields.io/badge/-MS%20Dynamics%20C5-lightgray)
+    ![](https://img.shields.io/badge/-MySQL-lightgray)
+    ![](https://img.shields.io/badge/-NHibernate-lightgray)
+    ![](https://img.shields.io/badge/-NodaTime-lightgray)
+    ![](https://img.shields.io/badge/-NuGet-lightgray)
+    ![](https://img.shields.io/badge/-Oracle-blue)
+    ![](https://img.shields.io/badge/-Payments-lightgray)
+    ![](https://img.shields.io/badge/-SAML-lightgray)
+    ![](https://img.shields.io/badge/-SQLite-blue)
+    ![](https://img.shields.io/badge/-T4-lightgray)
+    ![](https://img.shields.io/badge/-TFS-orange)
+    ![](https://img.shields.io/badge/-VB.NET-forestgreen)
+    ![](https://img.shields.io/badge/-WCF-lightgray)
+    ![](https://img.shields.io/badge/-WIF-lightgray)
+    ![](https://img.shields.io/badge/-WinForms-blueviolet)
+    ![](https://img.shields.io/badge/-WPF-lightgray)
+    ![](https://img.shields.io/badge/-x509-lightgray)
+    ![](https://img.shields.io/badge/-XML-lightgray)
+- Inherited lead development role for _current_ SaaS platform.
+  Significant contributions include:
   - Data access
   - Core object model
-  - Common WinForms controls
+  - Common UI controls
   - Web services layer
-  - Deployment and Windows installer
-- Helped maintain legacy SaaS platform (2005 only)
-  - VB6, ADO, ASP, ActiveX, Oracle
-- Provided general support for the rest of the development team. When others needed help, I was the one they came to.
+  - Deployment and Windows installer  
+    ![](https://img.shields.io/badge/-ActiveX-lightgray)
+    ![](https://img.shields.io/badge/-ADO-lightgray)
+    ![](https://img.shields.io/badge/-ASP-lightgray)
+    ![](https://img.shields.io/badge/-IIS-lightgray)
+    ![](https://img.shields.io/badge/-Infragistics-lightgray)
+    ![](https://img.shields.io/badge/-Oracle-blue)
+    ![](https://img.shields.io/badge/-VB6-forestgreen)
+    ![](https://img.shields.io/badge/-VSS-orange)
+    ![](https://img.shields.io/badge/-WinForms-blueviolet)
+    ![](https://img.shields.io/badge/-XML-lightgray)
+- Helped maintain _legacy_ SaaS platform
+  - During 2005 only  
+    ![](https://img.shields.io/badge/-ActiveX-lightgray)
+    ![](https://img.shields.io/badge/-ADO-lightgray)
+    ![](https://img.shields.io/badge/-ASP-lightgray)
+    ![](https://img.shields.io/badge/-IIS-lightgray)
+    ![](https://img.shields.io/badge/-SQL%20Server-blue)
+    ![](https://img.shields.io/badge/-VB6-forestgreen)
+    ![](https://img.shields.io/badge/-VSS-orange)
+- Provided general support for the rest of the development team.
+  When anyone needed help, I was the one they came to.
 
-![](https://img.shields.io/badge/-Languages:-red)
-![](https://img.shields.io/badge/-VB.NET-lightgrey)
-![](https://img.shields.io/badge/-C%23-lightgrey)
-![](https://img.shields.io/badge/-XML-lightgrey)
-![](https://img.shields.io/badge/-T4-lightgrey)
+### Keane, Inc.
 
-![](https://img.shields.io/badge/-Databases:-blue)
-![](https://img.shields.io/badge/-Oracle-lightgrey)
-![](https://img.shields.io/badge/-SQL%20Server-lightgrey)
-![](https://img.shields.io/badge/-MySQL-lightgrey)
-![](https://img.shields.io/badge/-SQLite-lightgrey)
+#### _(7/2001 - 1/2005)_ Consultant
 
-![](https://img.shields.io/badge/-Technologies:-brightgreen)
-![](https://img.shields.io/badge/-ADO.NET-lightgrey)
-![](https://img.shields.io/badge/-Entity%20Framework-lightgrey)
-![](https://img.shields.io/badge/-LLBLGen%20Pro-lightgrey)
-![](https://img.shields.io/badge/-NHibernate-lightgrey)
-![](https://img.shields.io/badge/-ASP.NET%20MVC-lightgrey)
-![](https://img.shields.io/badge/-WinForms-lightgrey)
-![](https://img.shields.io/badge/-Infragistics-lightgrey)
-![](https://img.shields.io/badge/-Dotfuscator-lightgrey)
-![](https://img.shields.io/badge/-ClickOnce-lightgrey)
-![](https://img.shields.io/badge/-InstallShield-lightgrey)
-![](https://img.shields.io/badge/-IIS-lightgrey)
-![](https://img.shields.io/badge/-WIF-lightgrey)
-![](https://img.shields.io/badge/-WCF-lightgrey)
-![](https://img.shields.io/badge/-WPF-lightgrey)
-![](https://img.shields.io/badge/-SAML-lightgrey)
-![](https://img.shields.io/badge/-x509-lightgrey)
-![](https://img.shields.io/badge/-Encryption-lightgrey)
-![](https://img.shields.io/badge/-Code%20Contracts-lightgrey)
-![](https://img.shields.io/badge/-Globalization-lightgrey)
-![](https://img.shields.io/badge/-NodaTime-lightgrey)
-![](https://img.shields.io/badge/-Moq-lightgrey)
-
-![](https://img.shields.io/badge/-Integrations%20with:-blueviolet)
-![](https://img.shields.io/badge/-Team%20Foundation%20Server-lightgrey)
-![](https://img.shields.io/badge/-Thinktecture%20IdentityServer-lightgrey)
-![](https://img.shields.io/badge/-Credit%20Card%20Processors-lightgrey)
-![](https://img.shields.io/badge/-Microsoft%20Dynamics%20C5-lightgrey)
-
-### **2. Consultant** - Keane, Inc.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_(7/2001 - 1/2005)_
-
-- Designed, built, and maintained several applications and databases for The Church of Jesus Christ of Latter-Day Saints, including:
+- Contracted to The Church of Jesus Christ of Latter-day Saints
+- Designed, built, and/or maintained several applications and databases, including:
   - Global missionary debit card stipend system
-  - Genealogical & other historical records manager
-  - Tracking system for welfare given to homeless people in SLC
-  - Integration of financial data with various 3<sup>rd</sup>-party systems
+  - Genealogical (and other historical) records manager
+  - Tracking system for welfare provided to homeless people in Salt Lake City
+  - Integration of financial data with various 3<sup>rd</sup>-party systems  
+    ![](https://img.shields.io/badge/-ACH-lightgray)
+    ![](https://img.shields.io/badge/-ADO-lightgray)
+    ![](https://img.shields.io/badge/-ActiveX-lightgray)
+    ![](https://img.shields.io/badge/-ASP-lightgray)
+    ![](https://img.shields.io/badge/-HTML-lightgray)
+    ![](https://img.shields.io/badge/-MAPI-lightgray)
+    ![](https://img.shields.io/badge/-MS%20Access-blue)
+    ![](https://img.shields.io/badge/-MS%20Excel-lightgray)
+    ![](https://img.shields.io/badge/-Oracle-blue)
+    ![](https://img.shields.io/badge/-PDF-lightgray)
+    ![](https://img.shields.io/badge/-PeopleSoft-lightgray)
+    ![](https://img.shields.io/badge/-QuickBooks-lightgray)
+    ![](https://img.shields.io/badge/-Scanners-lightgray)
+    ![](https://img.shields.io/badge/-SMTP-lightgray)
+    ![](https://img.shields.io/badge/-VB6-forestgreen)
+    ![](https://img.shields.io/badge/-VBA-forestgreen)
+    ![](https://img.shields.io/badge/-Windows%20API-lightgray)
 - Helped maintain and enhance several legacy applications, including:
   - Global missionary onboarding system
   - Custom project management application
-  - Parking permit & ticket management (on handheld devices) for church properties
+  - Parking permit & ticket management (on handheld devices) for church properties  
+    ![](https://img.shields.io/badge/-ADO-lightgray)
+    ![](https://img.shields.io/badge/-ASP-lightgray)
+    ![](https://img.shields.io/badge/-Handheld%20PC-lightgray)
+    ![](https://img.shields.io/badge/-HTML-lightgray)
+    ![](https://img.shields.io/badge/-MS%20Access-blue)
+    ![](https://img.shields.io/badge/-MS%20Excel-lightgray)
+    ![](https://img.shields.io/badge/-Oracle-blue)
+    ![](https://img.shields.io/badge/-VB6-forestgreen)
+    ![](https://img.shields.io/badge/-VBA-forestgreen)
+    ![](https://img.shields.io/badge/-Windows%20API-lightgray)
 - Provided general IT support and consulting services
 
-![](https://img.shields.io/badge/-Languages:-red)
-![](https://img.shields.io/badge/-VBA-lightgrey)
-![](https://img.shields.io/badge/-VB6-lightgrey)
-![](https://img.shields.io/badge/-HTML-lightgrey)
+### PEGUS Research, Inc.
 
-![](https://img.shields.io/badge/-Databases:-blue?logo=)
-![](https://img.shields.io/badge/-Oracle-lightgrey)
-![](https://img.shields.io/badge/-MS%20Access-lightgrey)
+#### _(7/1999 - 7/2001)_ Technical Research Assistant
 
-![](https://img.shields.io/badge/-Technologies:-brightgreen)
-![](https://img.shields.io/badge/-Windows%20API-lightgrey)
-![](https://img.shields.io/badge/-ASP-lightgrey)
-![](https://img.shields.io/badge/-ActiveX-lightgrey)
-![](https://img.shields.io/badge/-SMTP-lightgrey)
-![](https://img.shields.io/badge/-MAPI-lightgrey)
-![](https://img.shields.io/badge/-PDF-lightgrey)
-
-![](https://img.shields.io/badge/-Integrations%20with:-blueviolet)
-![](https://img.shields.io/badge/-ACH-lightgrey)
-![](https://img.shields.io/badge/-PeopleSoft-lightgrey)
-![](https://img.shields.io/badge/-QuickBooks-lightgrey)
-![](https://img.shields.io/badge/-MS%20Excel-lightgrey)
-![](https://img.shields.io/badge/-Handheld%20PCs-lightgrey)
-![](https://img.shields.io/badge/-Scanners-lightgrey)
-
-### **1. Technical Research Assistant** - PEGUS Research
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_(7/1999 - 7/2001)_
-
-- Designed, built, and maintained several applications and databases, including:
-  - Pharmaceutical research studies for companies such as Novartis and GlaxoSmithKlien
+- Designed, built, and/or maintained several applications and databases, including:
+  - Pharmaceutical research studies for companies such as Novartis and GlaxoSmithKline
   - Internal time tracking and payroll
-  - Nationwide network of partner pharmacies
+  - Nationwide network of partner pharmacies  
+    ![](https://img.shields.io/badge/-ActiveX-lightgray)
+    ![](https://img.shields.io/badge/-ADO-lightgray)
+    ![](https://img.shields.io/badge/-MS%20Access-blue)
+    ![](https://img.shields.io/badge/-VB6-forestgreen)
+    ![](https://img.shields.io/badge/-VBA-forestgreen)
+    ![](https://img.shields.io/badge/-Windows%20API-lightgray)
 - Provided IT support throughout the company
 
-![](https://img.shields.io/badge/-Languages:-red)
-![](https://img.shields.io/badge/-VBA-lightgrey)
-![](https://img.shields.io/badge/-VB6-lightgrey)
+## Past Certifications
 
-![](https://img.shields.io/badge/-Databases:-blue)
-![](https://img.shields.io/badge/-MS%20Access-lightgrey)
+I've earned various certifications over the years—these are no longer active,
+but demonstrate breadth of foundational knowledge.
+Always happy to pursue new ones if needed.
 
-![](https://img.shields.io/badge/-Technologies:-brightgreen)
-![](https://img.shields.io/badge/-Windows%20API-lightgrey)
-![](https://img.shields.io/badge/-ActiveX-lightgrey)
+<a href="Microsoft/MCPS/MS_Cert_Professional_logo_Blk_Wht_rgb.png">
+  <img src="Microsoft/MCPS/MS_Cert_Professional_logo_Blk_Wht_rgb.png"
+       height="100" align="top" alt="Microsoft Certified Professional">
+</a>
+
+---
+
+<a href="Microsoft/MTA/Windows%20Operating%20System/MTA_WindowsOS_Blk_Wht.png">
+  <img src="Microsoft/MTA/Windows%20Operating%20System/MTA_WindowsOS_Blk_Wht.png"
+       height="100" align="top" alt="MTA: Windows Operating System Fundamentals">
+</a>
+<a href="Microsoft/MTA/Windows%20Server%20Administration/MTA_ServerAdmin_Blk_Wht.png">
+  <img src="Microsoft/MTA/Windows%20Server%20Administration/MTA_ServerAdmin_Blk_Wht.png"
+       height="100" align="top" alt="MTA: Windows Server Administration Fundamentals">
+</a>
+
+---
+
+<a href="Microsoft/MTA/Software%20Development/MTA_SoftDev_Blk_Wht.png">
+  <img src="Microsoft/MTA/Software%20Development/MTA_SoftDev_Blk_Wht.png"
+       height="100" align="top" alt="MTA: Software Development Fundamentals">
+</a>
+<a href="Microsoft/MTA/Web%20Development/MTA_WebDev_Blk_Wht.png">
+  <img src="Microsoft/MTA/Web%20Development/MTA_WebDev_Blk_Wht.png"
+       height="100" align="top" alt="MTA: Web Development Fundamentals">
+</a>
+<a href="Microsoft/MTA/Database/MTA_Database_Blk_Wht.png">
+  <img src="Microsoft/MTA/Database/MTA_Database_Blk_Wht.png"
+       height="100" align="top" alt="MTA: Database Fundamentals">
+</a>
+
+---
+
+<a href="Microsoft/MTA/Networking/MTA_Network_Blk_Wht.png">
+  <img src="Microsoft/MTA/Networking/MTA_Network_Blk_Wht.png"
+       height="100" align="top" alt="MTA: Networking Fundamentals">
+</a>
+<a href="Microsoft/MTA/Security/MTA_Security_Blk_Wht.png">
+  <img src="Microsoft/MTA/Security/MTA_Security_Blk_Wht.png"
+       height="100" align="top" alt="MTA: Security Fundamentals">
+</a>
+
+---
+
+<a href="CompTIA/A%2B%20ce/Aplus%20Logo%20Certified%20CE.png">
+  <img src="CompTIA/A%2B%20ce/Aplus%20Logo%20Certified%20CE.png"
+       height="100" align="top" alt="CompTIA A+ ce">
+</a>
+<a href="CompTIA/Network%2B%20ce/NetworkPlus%20Logo%20Certified%20CE.png">
+  <img src="CompTIA/Network%2B%20ce/NetworkPlus%20Logo%20Certified%20CE.png"
+       height="100" align="top" alt="CompTIA Network+ ce">
+</a>
+<a href="CompTIA/Security%2B%20ce/SecurityPlus%20Logo%20Certified%20CE.png">
+  <img src="CompTIA/Security%2B%20ce/SecurityPlus%20Logo%20Certified%20CE.png"
+       height="100" align="top" alt="CompTIA Security+ ce">
+</a>
+<a href="CompTIA/Project%2B/ProjectPlus%20Logo%20Certified.png">
+  <img src="CompTIA/Project%2B/ProjectPlus%20Logo%20Certified.png"
+       height="100" align="top" alt="CompTIA Project+">
+</a>
+
+---
+
+<a href="CIW/CIW%20Web%20Foundations%20Associate%20Logo.jpg">
+  <img src="CIW/CIW%20Web%20Foundations%20Associate%20Logo.jpg"
+       height="100" align="top" alt="CIW Web Foundations Associate">
+</a>
+<a href="CIW/CIW%20Web%20Design%20Specialist%20Logo.jpg">
+  <img src="CIW/CIW%20Web%20Design%20Specialist%20Logo.jpg"
+       height="100" align="top" alt="CIW Web Design Specialist">
+</a>
+<a href="CIW/CIW%20JavaScript%20Specialist%20Logo.jpg">
+  <img src="CIW/CIW%20JavaScript%20Specialist%20Logo.jpg"
+       height="100" align="top" alt="CIW JavaScript Specialist">
+</a>
+<a href="CIW/CIW%20Database%20Design%20Specialist%20Logo.jpg">
+  <img src="CIW/CIW%20Database%20Design%20Specialist%20Logo.jpg"
+       height="100" align="top" alt="CIW Database Design Specialist">
+</a>
+
+---
+
+<a href="Oracle/OCA,%20Java%20SE%207%20Programmer/Logo.bmp">
+  <img src="Oracle/OCA,%20Java%20SE%207%20Programmer/Logo.bmp"
+       height="100" align="top" alt="Oracle Certified Associate, Java SE 7 Programmer">
+</a>

@@ -1,0 +1,154 @@
+/* PDF Resume Styles for WeasyPrint */
+
+@page {
+  size: letter;
+  margin: 0.75in;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 11pt;
+  line-height: 1.4;
+  color: #333;
+}
+
+/* Header / Name */
+h1 {
+  font-size: 24pt;
+  margin-bottom: 0.25em;
+  color: #1a1a1a;
+}
+
+/* Major sections: Summary, Skills, Education, Professional Experience, Past Certifications */
+h2 {
+  font-size: 14pt;
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 0.2em;
+  margin-top: 1em;
+  color: #0066cc;
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+/* Company names */
+h3 {
+  font-size: 12pt;
+  margin-top: 0.8em;
+  margin-bottom: 0.3em;
+  color: #1a1a1a;
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+/* Job positions - NEVER span pages */
+h4 {
+  font-size: 11pt;
+  font-weight: 600;
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+  color: #444;
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+/* Keep job content together with its heading */
+h4 + ul,
+h4 + p,
+h3 + h4 {
+  page-break-before: avoid;
+  break-before: avoid;
+}
+
+/* Prevent page breaks inside list items (job bullets) */
+li {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* Keep nested lists together */
+ul ul {
+  page-break-before: avoid;
+  break-before: avoid;
+}
+
+/* Major sections should not be split */
+section,
+article {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* Skills table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.5em 0;
+  font-size: 10pt;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+th,
+td {
+  padding: 0.4em 0.6em;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+
+/* Contact info at top */
+h1 + p {
+  margin-top: 0;
+  font-size: 10pt;
+  color: #666;
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+/* Badges - keep them inline and sized appropriately */
+img[src*="shields.io"] {
+  height: 18px;
+  vertical-align: middle;
+  margin: 1px;
+}
+
+/* Certification images */
+img:not([src*="shields.io"]) {
+  max-height: 80px;
+  margin: 5px;
+}
+
+/* Horizontal rules (between cert groups) */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0.8em 0;
+}
+
+/* Emphasis for dates */
+em {
+  font-style: italic;
+  color: #555;
+}
+
+/* Bold text */
+strong {
+  font-weight: 600;
+}
+
+/* Code/technical terms if any */
+code {
+  font-family: "Consolas", "Monaco", monospace;
+  font-size: 0.9em;
+  background-color: #f5f5f5;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}

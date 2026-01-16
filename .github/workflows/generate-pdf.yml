@@ -1,0 +1,57 @@
+name: Generate Resume PDF
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc weasyprint
+
+      - name: Preprocess Markdown (remove ToC)
+        run: |
+          # Remove the Table of Contents section
+          # Matches from "#### Table of Contents" to the next "## " heading
+          sed -i '/^#### Table of Contents/,/^## /{/^## /!d}' README.md
+
+      - name: Generate PDF
+        run: |
+          pandoc README.md \
+            -f markdown \
+            -t html \
+            --metadata title="RJ Hollberg - Resume" \
+            --css=pdf-styles.css \
+            --embed-resources \
+            --standalone \
+            -o Resume.pdf \
+            --pdf-engine=weasyprint
+
+      - name: Restore README.md (undo ToC removal)
+        run: |
+          git checkout README.md
+
+      - name: Commit PDF to PR branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Resume.pdf
+          if git diff --staged --quiet; then
+            echo "No changes to PDF"
+          else
+            git commit -m "Generate Resume.pdf from README.md"
+            git push
+          fi

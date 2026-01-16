@@ -112,22 +112,6 @@ h1 + p {
   color: #666;
 }
 
-/* Links - make them visibly clickable */
-a {
-  color: #0066cc !important;
-  text-decoration: underline !important;
-  text-decoration-color: #0066cc !important;
-}
-
-/* But not for badge images or cert images */
-a img {
-  text-decoration: none !important;
-}
-
-a:has(img) {
-  text-decoration: none !important;
-}
-
 /* Page break controls - explicit breaks before specific companies */
 .page-break {
   page-break-before: always !important;
@@ -142,7 +126,7 @@ a:has(img) {
 
 /* Badges - keep them inline and sized appropriately */
 img[src*="shields.io"] {
-  height: 15px;
+  height: 18px;
   vertical-align: middle;
   margin: 1px;
 }

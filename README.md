@@ -3,8 +3,8 @@
 14294 Pepper Grass Lane  
 Herriman, UT 84096  
 801-558-3812  
-rj.hollberg@outlook.com  
-https://taffareljr.github.io/resume
+[rj.hollberg@outlook.com](mailto:rj.hollberg@outlook.com)  
+[taffareljr.github.io/resume](https://taffareljr.github.io/resume)
 
 #### Table of Contents <!-- omit in toc -->
 
@@ -39,7 +39,7 @@ and enabling natural language interfaces over an enterprise data warehouse.
 - **Architecture Focus:**
   DDD, event-driven microservices, and clean code principles
 - **Microsoft Stack Expert:**
-  Deep expertise in .NET ecosystem since 1.0, Azure, and modern cloud-native patterns
+  Deep expertise in .NET ecosystem since 1.0, Azure, and cloud-native development
 - **Full SDLC Experience:**
   R&D, agile, development, testing, CI/CD, infrastructure, and DevOps
 - **Force Multiplier:**

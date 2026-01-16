@@ -37,13 +37,17 @@ jobs:
             --embed-resources \
             --standalone \
             -o Resume_Full.pdf \
-            --pdf-engine=weasyprint
+            --pdf-engine=weasyprint \
+            --pdf-engine-opt=--pdf-version=1.7
 
       - name: Trim old Data
         run: |
-          # Replace print-cutoff marker with a note, then delete everything after
-          sed -i 's/<!-- print-cutoff -->/*Additional experience (1999–2013) available at [https:\/\/taffareljr.github.io\/resume](https:\/\/taffareljr.github.io\/resume)*/' README.md
-          sed -i '/^### Centershift/,$d' README.md
+          # Remove everything from print-cutoff marker to end of file
+          sed -i '/<!-- print-cutoff -->/,$d' README.md
+          
+          # Append note about additional experience
+          echo '' >> README.md
+          echo '*Additional experience (1999–2013) available at [https:\/\/taffareljr.github.io/resume](https:\/\/taffareljr.github.io/resume)*' >> README.md
 
       - name: Generate brief PDF
         run: |
@@ -55,7 +59,8 @@ jobs:
             --embed-resources \
             --standalone \
             -o Resume_Brief.pdf \
-            --pdf-engine=weasyprint
+            --pdf-engine=weasyprint \
+            --pdf-engine-opt=--pdf-version=1.7
 
       - name: Restore README.md
         run: |

@@ -21,5 +21,15 @@
   <a href="{{ personal.website }}">{{ personal.website }}</a>
 </p>
 
+<h2>Summary</h2>
+
+<p>{{ summary }}</p>
+
+<ul>
+{% for highlight in highlights %}
+  <li><strong>{{ highlight.label }}:</strong> {{ highlight.description | trim }}</li>
+{% endfor %}
+</ul>
+
 </body>
 </html>

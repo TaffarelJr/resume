@@ -12,9 +12,27 @@ personal:
   email: rj.hollberg@outlook.com
   website: https://taffareljr.github.io/resume
 
-summary:
+summary: |
+  Software Architect and technical leader with 25+ years of hands-on experience
+  designing and delivering products, including enterprise-scale distributed systems.
+  Currently leading AI initiatives,
+  including architecting a production ChatGPT clone
+  and enabling natural language interfaces over an enterprise data warehouse.
 
-highlights: []
+highlights:
+  - label: Architecture Focus
+    description: DDD, event-driven microservices, and clean code principles
+
+  - label: Microsoft Stack Expert
+    description: Deep expertise in .NET ecosystem since 1.0, Azure, and cloud-native patterns
+
+  - label: Full SDLC Experience
+    description: R&D, agile, development, testing, CI/CD, infrastructure, and DevOps
+
+  - label: Force Multiplier
+    description: |
+      Passionate about mentoring developers, establishing best practices,
+      elevating team capabilities, and producing high-quality output
 
 skills: []
 

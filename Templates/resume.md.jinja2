@@ -6,3 +6,11 @@
 {{ personal.phone }}  
 [{{ personal.email }}](mailto:{{ personal.email }})  
 [{{ personal.website }}]({{ personal.website }})
+
+## Summary
+
+{{ summary }}
+{% for highlight in highlights %}
+- **{{ highlight.label }}:**
+{{ highlight.description | trim | indent(2, first=True) }}
+{% endfor %}

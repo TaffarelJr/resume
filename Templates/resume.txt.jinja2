@@ -8,3 +8,12 @@
 {{ personal.phone }}
 {{ personal.email }}
 {{ personal.website }}
+
+════════════════════════════════════════════════════════════════════════════════
+SUMMARY
+════════════════════════════════════════════════════════════════════════════════
+
+{{ summary | format_text_block }}
+{% for highlight in highlights %}
+  - {{ highlight.label }}: {{ highlight.description | format_text_block }}
+{% endfor %}

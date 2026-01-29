@@ -19,9 +19,25 @@ h1 {
   color: #1a1a1a;
 }
 
+/* Major sections: Summary, Skills, Education, Professional Experience, Past Certifications */
+h2 {
+  font-size: 14pt;
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 0.15em;
+  margin-top: 0.8em;
+  color: #0066cc;
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
 /* Contact info at top */
 h1 + p {
   margin-top: 0;
   font-size: 9pt;
   color: #666;
+}
+
+/* Bold text */
+strong {
+  font-weight: 700;
 }

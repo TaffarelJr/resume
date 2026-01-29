@@ -1,0 +1,25 @@
+{# HTML resume template with embedded CSS #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ personal.name }} - Resume</title>
+  <style>
+{{ css }}
+  </style>
+</head>
+<body>
+
+<h1>{{ personal.name }}</h1>
+
+<p>
+  {{ personal.address.street }}<br>
+  {{ personal.address.city }}, {{ personal.address.state }} {{ personal.address.zip }}<br>
+  {{ personal.phone }}<br>
+  <a href="mailto:{{ personal.email }}">{{ personal.email }}</a><br>
+  <a href="{{ personal.website }}">{{ personal.website }}</a>
+</p>
+
+</body>
+</html>

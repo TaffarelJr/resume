@@ -1,0 +1,15 @@
+{
+  "typeCheckingMode": "standard",
+  "pythonVersion": "3.12",
+  "include": [
+    "Scripts",
+    "generate_all.py"
+  ],
+  "exclude": [
+    ".venv",
+    "**/__pycache__"
+  ],
+  "extraPaths": [
+    "Scripts"
+  ]
+}

@@ -1,0 +1,27 @@
+# Resume Data for RJ Hollberg
+# This file serves as the single source of truth for generating resume formats
+
+personal:
+  name: RJ Hollberg
+  address:
+    street: 14294 Pepper Grass Lane
+    city: Herriman
+    state: UT
+    zip: 84096-6690
+  phone: 801-558-3812
+  email: rj.hollberg@outlook.com
+  website: https://taffareljr.github.io/resume
+
+summary:
+
+highlights: []
+
+skills: []
+
+education: []
+
+experience: []
+
+certifications:
+  note:
+  categories: []

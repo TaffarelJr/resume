@@ -1,0 +1,27 @@
+/* PDF Resume Styles for WeasyPrint */
+
+@page {
+  size: letter;
+  margin: 0.5in;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.35;
+  color: #333;
+}
+
+/* Header / Name */
+h1 {
+  font-size: 20pt;
+  margin-bottom: 0.2em;
+  color: #1a1a1a;
+}
+
+/* Contact info at top */
+h1 + p {
+  margin-top: 0;
+  font-size: 9pt;
+  color: #666;
+}

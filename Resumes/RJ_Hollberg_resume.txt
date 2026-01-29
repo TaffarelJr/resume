@@ -17,3 +17,21 @@ Software Architect and technical leader with 25+ years of hands-on experience de
   - Microsoft Stack Expert: Deep expertise in .NET ecosystem since 1.0, Azure, and cloud-native patterns
   - Full SDLC Experience: R&D, agile, development, testing, CI/CD, infrastructure, and DevOps
   - Force Multiplier: Passionate about mentoring developers, establishing best practices, elevating team capabilities, and producing high-quality output
+
+════════════════════════════════════════════════════════════════════════════════
+SKILLS
+════════════════════════════════════════════════════════════════════════════════
+
+Architecture: DDD, Bounded Contexts, Event-Driven, Microservices, CQRS, Clean/Explicit Architecture
+
+AI & ML: LLMs, RAG, Semantic Kernel, Prompt Engineering, AI Agents, Vector Search, Azure OpenAI
+
+Languages: C#, SQL, just enough HTML/CSS/JS/TS to be dangerous
+
+Cloud & Infra: Azure (AppServices, CosmosDB, EventHubs, OpenAI, ServiceBus), Terraform, Docker, CI/CD
+
+Data: SQL Server, CosmosDB, MongoDB, PostgreSQL, Event Sourcing
+
+Practices: TDD, Refactoring, Code Review, Pair Programming, Technical Mentorship
+
+Languages (Human): English (native), Portuguese (intermediate)

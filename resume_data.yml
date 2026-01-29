@@ -34,7 +34,59 @@ highlights:
       Passionate about mentoring developers, establishing best practices,
       elevating team capabilities, and producing high-quality output
 
-skills: []
+skills:
+  - domain: Architecture
+    technologies:
+      - DDD
+      - Bounded Contexts
+      - Event-Driven
+      - Microservices
+      - CQRS
+      - Clean/Explicit Architecture
+
+  - domain: AI & ML
+    technologies:
+      - LLMs
+      - RAG
+      - Semantic Kernel
+      - Prompt Engineering
+      - AI Agents
+      - Vector Search
+      - Azure OpenAI
+
+  - domain: Languages
+    technologies:
+      - C#
+      - SQL
+      - just enough HTML/CSS/JS/TS to be dangerous
+
+  - domain: Cloud & Infra
+    technologies:
+      - Azure (AppServices, CosmosDB, EventHubs, OpenAI, ServiceBus)
+      - Terraform
+      - Docker
+      - CI/CD
+
+  - domain: Data
+    technologies:
+      - SQL Server
+      - CosmosDB
+      - MongoDB
+      - PostgreSQL
+      - Event Sourcing
+
+  - domain: Practices
+    technologies:
+      - TDD
+      - Refactoring
+      - Code Review
+      - Pair Programming
+      - Technical Mentorship
+
+  - domain: Languages (Human)
+    technologies:
+      - English (native)
+      - Portuguese (intermediate)
 
 education: []
 

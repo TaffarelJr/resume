@@ -31,5 +31,24 @@
 {% endfor %}
 </ul>
 
+<h2>Skills</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Domain</th>
+      <th>Technologies &amp; Expertise</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for skill in skills %}
+    <tr>
+      <td><strong>{{ skill.domain }}</strong></td>
+      <td>{{ skill.technologies | join(', ') }}</td>
+    </tr>
+{% endfor %}
+  </tbody>
+</table>
+
 </body>
 </html>

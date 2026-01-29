@@ -14,3 +14,11 @@
 - **{{ highlight.label }}:**
 {{ highlight.description | trim | indent(2, first=True) }}
 {% endfor %}
+
+## Skills
+
+| Domain | Technologies & Expertise |
+| ------ | ------------------------ |
+{% for skill in skills %}
+| **{{ skill.domain }}** | {{ skill.technologies | join(', ') }} |
+{% endfor %}

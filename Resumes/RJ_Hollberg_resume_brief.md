@@ -23,3 +23,15 @@ and enabling natural language interfaces over an enterprise data warehouse.
 - **Force Multiplier:**
   Passionate about mentoring developers, establishing best practices,
   elevating team capabilities, and producing high-quality output
+
+## Skills
+
+| Domain | Technologies & Expertise |
+| ------ | ------------------------ |
+| **Architecture** | DDD, Bounded Contexts, Event-Driven, Microservices, CQRS, Clean/Explicit Architecture |
+| **AI & ML** | LLMs, RAG, Semantic Kernel, Prompt Engineering, AI Agents, Vector Search, Azure OpenAI |
+| **Languages** | C#, SQL, just enough HTML/CSS/JS/TS to be dangerous |
+| **Cloud & Infra** | Azure (AppServices, CosmosDB, EventHubs, OpenAI, ServiceBus), Terraform, Docker, CI/CD |
+| **Data** | SQL Server, CosmosDB, MongoDB, PostgreSQL, Event Sourcing |
+| **Practices** | TDD, Refactoring, Code Review, Pair Programming, Technical Mentorship |
+| **Languages (Human)** | English (native), Portuguese (intermediate) |

@@ -17,3 +17,11 @@ SUMMARY
 {% for highlight in highlights %}
   - {{ highlight.label }}: {{ highlight.description | format_text_block }}
 {% endfor %}
+
+════════════════════════════════════════════════════════════════════════════════
+SKILLS
+════════════════════════════════════════════════════════════════════════════════
+{% for skill in skills %}
+
+{{ skill.domain }}: {{ skill.technologies | join(', ') }}
+{% endfor %}

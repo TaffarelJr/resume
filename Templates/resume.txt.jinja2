@@ -25,3 +25,12 @@ SKILLS
 
 {{ skill.domain }}: {{ skill.technologies | join(', ') }}
 {% endfor %}
+
+════════════════════════════════════════════════════════════════════════════════
+EDUCATION
+════════════════════════════════════════════════════════════════════════════════
+{% for edu in education %}
+
+{{ edu.degree }} in {{ edu.field }}
+{{ edu.institution }}, {{ edu.end }}
+{% endfor %}

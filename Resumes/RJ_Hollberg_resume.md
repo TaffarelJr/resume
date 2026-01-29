@@ -35,3 +35,8 @@ and enabling natural language interfaces over an enterprise data warehouse.
 | **Data** | SQL Server, CosmosDB, MongoDB, PostgreSQL, Event Sourcing |
 | **Practices** | TDD, Refactoring, Code Review, Pair Programming, Technical Mentorship |
 | **Languages (Human)** | English (native), Portuguese (intermediate) |
+
+## Education
+
+B.S. in Information Technology - Software Emphasis  
+_Western Governors University, 2016_

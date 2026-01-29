@@ -22,3 +22,10 @@
 {% for skill in skills %}
 | **{{ skill.domain }}** | {{ skill.technologies | join(', ') }} |
 {% endfor %}
+
+## Education
+{% for edu in education %}
+
+{{ edu.degree }} in {{ edu.field }}  
+_{{ edu.institution }}, {{ edu.end }}_
+{% endfor %}

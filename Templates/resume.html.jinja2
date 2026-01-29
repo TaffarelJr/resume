@@ -50,5 +50,14 @@
   </tbody>
 </table>
 
+<h2>Education</h2>
+
+{% for edu in education %}
+<p>
+  {{ edu.degree }} in {{ edu.field }}<br>
+  <em>{{ edu.institution }}, {{ edu.end }}</em>
+</p>
+{% endfor %}
+
 </body>
 </html>

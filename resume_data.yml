@@ -88,7 +88,12 @@ skills:
       - English (native)
       - Portuguese (intermediate)
 
-education: []
+education:
+  - degree: B.S.
+    field: Information Technology - Software Emphasis
+    institution: Western Governors University
+    start: 2013
+    end: 2016
 
 experience: []
 

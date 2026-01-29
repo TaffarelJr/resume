@@ -63,3 +63,9 @@ td {
 strong {
   font-weight: 700;
 }
+
+/* Emphasis for dates */
+em {
+  font-style: italic;
+  color: #555;
+}

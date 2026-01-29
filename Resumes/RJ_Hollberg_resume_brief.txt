@@ -35,3 +35,10 @@ Data: SQL Server, CosmosDB, MongoDB, PostgreSQL, Event Sourcing
 Practices: TDD, Refactoring, Code Review, Pair Programming, Technical Mentorship
 
 Languages (Human): English (native), Portuguese (intermediate)
+
+════════════════════════════════════════════════════════════════════════════════
+EDUCATION
+════════════════════════════════════════════════════════════════════════════════
+
+B.S. in Information Technology - Software Emphasis
+Western Governors University, 2016

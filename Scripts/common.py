@@ -253,49 +253,6 @@ def filter_experience_for_brief(experience: list) -> list:
 
 
 #───────────────────────────────────────────────────────────────────────────────
-# Text Formatting Functions
-#───────────────────────────────────────────────────────────────────────────────
-
-
-def format_text_block(text: str, bullet_indent: str = "  ") -> str:
-    """
-    Format a text block for plain text output.
-
-    Preserves bullet point hierarchy while joining wrapped non-bullet lines.
-    This is only for plain text output — Markdown preserves line breaks as-is.
-
-    Args:
-        text: The text to format (may contain newlines and bullet points)
-        bullet_indent: Base indentation for bullets (default: 2 spaces)
-
-    Returns:
-        Formatted text with proper indentation for nested bullets
-    """
-    if not text:
-        return ""
-
-    lines = text.strip().split("\n")
-    result = []
-
-    for line in lines:
-        stripped = line.lstrip()
-        leading_spaces = len(line) - len(stripped)
-
-        if stripped.startswith("- "):
-            # Bullet point — preserve relative indentation
-            indent = bullet_indent + " " * leading_spaces
-            result.append(f"{indent}{stripped}")
-        elif stripped:
-            # Non-bullet line — join with previous line
-            if result:
-                result[-1] = result[-1].rstrip() + " " + stripped
-            else:
-                result.append(stripped)
-
-    return "\n".join(result)
-
-
-#───────────────────────────────────────────────────────────────────────────────
 # Technology Badge Helpers
 #───────────────────────────────────────────────────────────────────────────────
 
@@ -417,3 +374,27 @@ def url_encode_badge_text(text: str) -> str:
         URL-encoded string safe for use in badge URLs
     """
     return text.replace(" ", "%20").replace("#", "%23").replace("+", "%2B")
+
+
+def build_badge_url(name: str, is_primary: bool = False) -> str:
+    """
+    Build a shields.io badge URL for a technology.
+
+    Handles all shields.io escaping conventions:
+    - Dashes become double-dash (--)
+    - Underscores become double-underscore (__)
+    - Spaces and special characters are URL-encoded
+
+    Args:
+        name: Technology name (e.g., "C#", "SQL Server")
+        is_primary: Whether this is a primary/featured technology
+
+    Returns:
+        Complete shields.io badge URL
+    """
+    # Escape shields.io special characters first
+    label = name.replace("-", "--").replace("_", "__")
+    # Then URL-encode for the URL
+    label = url_encode_badge_text(label)
+    color = get_badge_color(name, is_primary)
+    return f"https://img.shields.io/badge/{label}-{color}"

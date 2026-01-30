@@ -28,8 +28,7 @@ from common import (
     # Formatting functions
     filter_experience_for_brief,
     format_date_range,
-    get_badge_color,
-    url_encode_badge_text,
+    build_badge_url,
 )
 
 
@@ -77,12 +76,8 @@ def tech_to_badge(tech: dict) -> str:
     """
     name = tech.get("item", "")
     is_primary = tech.get("isPrimary", False)
-
-    # URL-encode for shields.io
-    encoded = url_encode_badge_text(name)
-    color = get_badge_color(name, is_primary)
-
-    return f"![](https://img.shields.io/badge/-{encoded}-{color})"
+    url = build_badge_url(name, is_primary)
+    return f"![{name}]({url})"
 
 
 #───────────────────────────────────────────────────────────────────────────────

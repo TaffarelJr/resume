@@ -30,6 +30,14 @@ h2 {
   break-after: avoid;
 }
 
+/* Job positions */
+h3 {
+  font-size: 10.5pt;
+  margin-top: 0.6em;
+  margin-bottom: 0.2em;
+  color: #1a1a1a;
+}
+
 /* Contact info at top */
 h1 + p {
   margin-top: 0;
@@ -59,13 +67,32 @@ td {
   border-bottom: 1px solid #ddd;
 }
 
+/* Page break controls - explicit breaks before specific companies */
+.page-break {
+  page-break-before: always !important;
+  break-before: page !important;
+}
+
+/* Major sections should not be split */
+section {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
 /* Bold text */
 strong {
   font-weight: 700;
 }
 
-/* Emphasis for dates */
+/* Emphasis */
 em {
   font-style: italic;
   color: #555;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0.8em 0;
 }

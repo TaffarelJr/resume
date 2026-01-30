@@ -1,4 +1,4 @@
-{# Markdown resume template #}
+﻿{# Markdown resume template #}
 # {{ personal.name }} <!-- omit in toc -->
 
 {{ personal.address.street }}  
@@ -29,3 +29,35 @@
 {{ edu.degree }} in {{ edu.field }}  
 _{{ edu.institution }}, {{ edu.end }}_
 {% endfor %}
+
+## Professional Experience
+{% for position in experience %}
+{% if not loop.first %}
+
+---
+{% endif %}
+
+### {{ position.company }} - {{ position.title }} _({{ format_date_range(position.dates) }})_
+{% for resp in position.responsibilities %}
+
+{{ resp.description | trim }}
+{% if resp.technologies %}
+{% for tech in resp.technologies %}
+{% if loop.first %}- {% else %}  {% endif %}{{ tech | tech_to_badge }}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% if position.technologies %}
+
+{% for tech in position.technologies %}
+{{ tech | tech_to_badge }}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% if is_brief %}
+
+---
+
+_Additional experience (back to {{ career_start_year }}) available at
+[{{ personal.website }}]({{ personal.website }})_
+{% endif %}

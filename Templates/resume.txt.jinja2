@@ -34,3 +34,32 @@ EDUCATION
 {{ edu.degree }} in {{ edu.field }}
 {{ edu.institution }}, {{ edu.end }}
 {% endfor %}
+
+════════════════════════════════════════════════════════════════════════════════
+PROFESSIONAL EXPERIENCE
+════════════════════════════════════════════════════════════════════════════════
+{% for position in experience %}
+{% if not loop.first %}
+
+────────────────────────────────────────────────────────────────────────────────
+{% endif %}
+
+{{ position.company }} | {{ position.title }} | {{ format_date_range(position.dates) }}
+{% for resp in position.responsibilities %}
+
+{{ resp.description | format_text_block }}
+{% if resp.technologies %}
+  - {{ resp.technologies | map(attribute='item') | join(', ') }}
+{% endif %}
+{% endfor %}
+{% if position.technologies %}
+
+{{ position.technologies | map(attribute='item') | join(', ') }}
+{% endif %}
+{% endfor %}
+{% if is_brief %}
+
+────────────────────────────────────────────────────────────────────────────────
+
+Additional experience (back to {{ career_start_year }}) available at {{ personal.website }}
+{% endif %}

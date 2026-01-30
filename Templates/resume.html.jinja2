@@ -59,5 +59,41 @@
 </p>
 {% endfor %}
 
+<div class="page-break"></div>
+
+<h2>Professional Experience</h2>
+{% for position in experience %}
+{% if not loop.first %}
+
+<hr>
+{% endif %}
+
+<section>
+  <h3>{{ position.company }} - {{ position.title }} <em>({{ position.dates | format_date_range }})</em></h3>
+{% for resp in position.responsibilities %}
+{% set badges = resp.technologies | map('tech_to_badge') | list if resp.technologies else [] %}
+
+  {{ resp.description | format_html_block(badges) | safe }}
+{% endfor %}
+{% if position.technologies %}
+
+  <p>
+{% for badge in position.technologies | map('tech_to_badge') %}
+    {{ badge | safe }}
+{% endfor %}
+  </p>
+{% endif %}
+</section>
+{% endfor %}
+{% if is_brief %}
+
+<hr>
+
+<p>
+  <em>Additional experience (back to {{ career_start_year }}) available at
+    <a href="{{ personal.website }}">{{ personal.website }}</a></em>
+</p>
+{% endif %}
+
 </body>
 </html>

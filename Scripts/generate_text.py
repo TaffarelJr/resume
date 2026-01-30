@@ -28,8 +28,49 @@ from common import (
     # Formatting functions
     filter_experience_for_brief,
     format_date_range,
-    format_text_block,
 )
+
+
+#───────────────────────────────────────────────────────────────────────────────
+# Text Formatting
+#───────────────────────────────────────────────────────────────────────────────
+
+
+def format_text_block(text: str, bullet_indent: str = "  ") -> str:
+    """
+    Format a text block for plain text output.
+
+    Preserves bullet point hierarchy while joining wrapped non-bullet lines.
+
+    Args:
+        text: The text to format (may contain newlines and bullet points)
+        bullet_indent: Base indentation for bullets (default: 2 spaces)
+
+    Returns:
+        Formatted text with proper indentation for nested bullets
+    """
+    if not text:
+        return ""
+
+    lines = text.strip().split("\n")
+    result: list[str] = []
+
+    for line in lines:
+        stripped = line.lstrip()
+        leading_spaces = len(line) - len(stripped)
+
+        if stripped.startswith("- "):
+            # Bullet point — preserve relative indentation
+            indent = bullet_indent + " " * leading_spaces
+            result.append(f"{indent}{stripped}")
+        elif stripped:
+            # Non-bullet line — join with previous line
+            if result:
+                result[-1] = result[-1].rstrip() + " " + stripped
+            else:
+                result.append(stripped)
+
+    return "\n".join(result)
 
 
 #───────────────────────────────────────────────────────────────────────────────

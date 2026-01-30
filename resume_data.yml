@@ -95,7 +95,560 @@ education:
     start: 2013
     end: 2016
 
-experience: []
+experience:
+  - company: R1 RCM, Inc.
+    title: Staff Software Engineer
+    dates:
+      start:
+        year: 2023
+        month: 3
+    responsibilities:
+      - description: |
+          Tech lead for the company's first AI app: an internal ChatGPT clone
+          - Rapid training on bleeding-edge AI technologies
+          - Kept the app up-to-date constantly as AI technology evolved and new features
+            were requested, iterating through increasingly complex architectures
+          - Roughly on-par with ChatGPT functionality
+        technologies:
+          - item: .NET
+            isPrimary: true
+          - item: AI
+            isPrimary: true
+          - item: AISearch
+          - item: AppInsights
+          - item: Azure
+          - item: Azure DevOps
+          - item: C#
+            isPrimary: true
+          - item: Confluence
+          - item: CosmosDB
+            isPrimary: true
+          - item: DocIntel
+          - item: Docker
+          - item: EventHubs
+            isPrimary: true
+          - item: Git
+            isPrimary: true
+          - item: GitHub Enterprise
+            isPrimary: true
+          - item: Kafka
+          - item: Kernel Memory
+            isPrimary: true
+          - item: LLM
+            isPrimary: true
+          - item: MCP
+          - item: MongoDB
+            isPrimary: true
+          - item: Moq
+          - item: NextJS
+          - item: NuGet
+          - item: OpenTelemetry
+          - item: Prompt Engineering
+            isPrimary: true
+          - item: React
+          - item: Semantic Kernel
+            isPrimary: true
+          - item: Serilog
+          - item: SignalR
+          - item: SonarQube
+          - item: Terraform
+      - description: |
+          Recently joined a BI team where I'm applying my recent AI expertise
+          - Working to allow users to chat with AI over our entire Data Warehouse
+          - Customizing AI Agents and various prompt instructions for vibe coding
+          - Planning major migration between Azure tenants
+        technologies:
+          - item: .NET
+            isPrimary: true
+          - item: Agents
+            isPrimary: true
+          - item: AI
+            isPrimary: true
+          - item: Angular
+          - item: AppInsights
+          - item: Azure
+          - item: Azure DevOps
+          - item: C#
+            isPrimary: true
+          - item: EF Core
+          - item: Git
+            isPrimary: true
+          - item: GitHub Enterprise
+            isPrimary: true
+          - item: LLM
+            isPrimary: true
+          - item: MCP
+          - item: Moq
+          - item: NuGet
+          - item: Prompt Engineering
+            isPrimary: true
+          - item: Serilog
+          - item: ServiceBus
+          - item: SignalR
+          - item: Snowflake
+          - item: SonarQube
+          - item: SQL Server
+            isPrimary: true
+          - item: Terraform
+      - description: |
+          Presented on various technologies and architectural concepts
+          for coworkers, other Architects, and management
+        technologies:
+          - item: MS PowerPoint
+
+  - company: R1 RCM, Inc.
+    title: Software Architect
+    dates:
+      start:
+        year: 2021
+        month: 7
+      end:
+        year: 2023
+        month: 3
+    responsibilities:
+      - description: |
+          Worked with Accounts Receivable teams to design migration of our
+          legacy monolithic apps towards newer architecture
+          - Microservices
+          - Domain-Driven Design (esp. Bounded Contexts)
+          - Event-Driven architecture (between microservices)
+          - Explicit Architecture (inside microservices)
+        technologies:
+          - item: .NET
+            isPrimary: true
+          - item: AppInsights
+          - item: Azure
+          - item: C#
+            isPrimary: true
+          - item: Git
+            isPrimary: true
+          - item: GitHub Enterprise
+            isPrimary: true
+          - item: NuGet
+          - item: Serilog
+          - item: ServiceBus
+          - item: SQL Server
+            isPrimary: true
+          - item: Terraform
+      - description: |
+          Built and maintained several shared packages,
+          addressing various cross-cutting concerns for microservices
+        technologies:
+          - item: .NET
+            isPrimary: true
+          - item: Artifactory
+          - item: Azure
+          - item: C#
+            isPrimary: true
+          - item: Cake
+          - item: CosmosDB
+            isPrimary: true
+          - item: EventHubs
+            isPrimary: true
+          - item: Git
+            isPrimary: true
+          - item: GitHub Enterprise
+            isPrimary: true
+          - item: Jira
+            isPrimary: true
+          - item: Kafka
+          - item: MongoDB
+            isPrimary: true
+          - item: Moq
+          - item: NuGet
+          - item: React
+          - item: Serilog
+          - item: SonarQube
+          - item: SQL Server
+            isPrimary: true
+      - description: |
+          Conducted a pilot for GitHub Enterprise
+          - Managed all configuration
+          - Built and maintained custom build agents
+          - Onboarded the entire development staff (and management)
+          - Designed and executed the transition strategy from Jira
+          - Trained new dedicated GitHub team, then handed off to them
+        technologies:
+          - item: Git
+            isPrimary: true
+          - item: GitHub Enterprise
+            isPrimary: true
+      - description: |
+          Presented on various technologies and architectural concepts
+          for coworkers, other Architects, and management
+        technologies:
+          - item: MS PowerPoint
+
+  - company: Willis Towers Watson plc
+    title: Software Architect
+    dates:
+      start:
+        year: 2017
+        month: 2
+      end:
+        year: 2021
+        month: 7
+    responsibilities:
+      - description: |
+          Worked with several dev teams as a force-multiplier,
+          with a specific focus on:
+          - Helping teams redesign legacy code as event-based microservices
+          - Using refactoring to arrive at those designs (instead of full-scale rewrites)
+          - Assisting teams as they migrated to new CI/CD tooling
+          - Coordinating integration between teams & their microservices
+          - Recommending best practices, patterns, and strategies
+          - Assisting developers to grow their personal software skills
+            and plan for their careers (mentoring)
+      - description: Built out IaC environments in Azure
+      - description: |
+          Built and maintained several shared packages,
+          addressing various cross-cutting concerns for microservices
+    technologies:
+      - item: .NET
+        isPrimary: true
+      - item: AppInsights
+      - item: AppMetrics
+      - item: Auth0
+      - item: Azure
+      - item: C#
+        isPrimary: true
+      - item: Cake
+      - item: CosmosDB
+        isPrimary: true
+      - item: Dapper
+      - item: Docker
+      - item: EventHubs
+      - item: Git
+        isPrimary: true
+      - item: GitHub Enterprise
+        isPrimary: true
+      - item: Kafka
+      - item: Marten
+      - item: MongoDB
+        isPrimary: true
+      - item: Moq
+      - item: NuGet
+      - item: Octopus Deploy
+      - item: PagerDuty
+      - item: PostgreSQL
+        isPrimary: true
+      - item: RavenDB
+        isPrimary: true
+      - item: React
+      - item: Serilog
+      - item: SignalR
+      - item: SQL Server
+        isPrimary: true
+      - item: Sumo Logic
+      - item: TeamCity
+        isPrimary: true
+      - item: Terraform
+        isPrimary: true
+
+  - company: Willis Towers Watson plc
+    title: Senior Software Developer
+    dates:
+      start:
+        year: 2016
+        month: 3
+      end:
+        year: 2017
+        month: 2
+    responsibilities:
+      - description: |
+          Played a central role in designing and implementing the strategy
+          for migrating to new database technology
+          - Created efficient tooling to perform automated document migration and validation
+      - description: |
+          General bugfixes, improving the performance of various components across our system
+          - Improved the performance of our largest query by 50-80%
+      - description: Explored options for moving our legacy monolith code to microservices
+    technologies:
+      - item: .NET
+        isPrimary: true
+      - item: C#
+        isPrimary: true
+      - item: Dapper
+      - item: Git
+        isPrimary: true
+      - item: Marten
+      - item: Moq
+      - item: NuGet
+      - item: PostgreSQL
+        isPrimary: true
+      - item: RavenDB
+        isPrimary: true
+      - item: Storyteller
+      - item: StructureMap
+      - item: TeamCity
+        isPrimary: true
+
+  - company: Aviacode, Inc.
+    title: Senior Software Developer
+    dates:
+      start:
+        year: 2013
+        month: 8
+      end:
+        year: 2016
+        month: 2
+    responsibilities:
+      - description: |
+          Helped design and build new SaaS platform for medical coding professionals, including:
+          - Server-side distributed system
+          - Onion architecture
+          - Durable messaging
+          - Document storage
+          - Client-side SPA
+      - description: Specific focus on back-end processes and security
+      - description: |
+          Was fortunate to work under some truly amazing architects.
+          While I wasn't the one driving this time around, I learned a lot.
+    technologies:
+      - item: .NET
+        isPrimary: true
+      - item: AJAX
+      - item: Angular 2
+        isPrimary: true
+      - item: AngularJS
+        isPrimary: true
+      - item: ASP.NET
+      - item: Autofac
+      - item: C#
+        isPrimary: true
+      - item: CSS 3
+      - item: Git
+        isPrimary: true
+      - item: HTML 5
+      - item: IIS
+      - item: JavaScript
+      - item: JQuery
+      - item: JSON
+      - item: Mercurial
+        isPrimary: true
+      - item: MSMQ
+      - item: NHibernate
+      - item: NuGet
+      - item: RavenDB
+        isPrimary: true
+      - item: Rhino Mocks
+      - item: SAML
+      - item: T4
+      - item: TeamCity
+        isPrimary: true
+      - item: TypeScript
+      - item: WIF
+      - item: WinForms
+        isPrimary: true
+      - item: XML
+
+  - company: Centershift, Inc.
+    title: Software Developer
+    dates:
+      start:
+        year: 2005
+        month: 2
+      end:
+        year: 2013
+        month: 7
+    responsibilities:
+      - description: |
+          While the company used the same title for all developers,
+          I served in the sole R&D/architect position.
+      - description: |
+          Researched and spearheaded several initiatives to improve our software and SDLC, including:
+          - Project management (Agile, Scrum)
+              - Led a 2-day conference to train the entire company
+              - Helped train other companies with a coworker as a side gig
+          - Centralized source control (Hypervisor, TFS, VM, VNet)
+              - Automated CI/CD and log aggregation
+              - Virtual dynamic test lab
+              - Branching strategies
+          - Patterns & practices (Clean Code, Code Contracts, DDD, OOP, SOA, SOLID)
+          - Development techniques (Craftsmanship, Pair Programming, Refactoring)
+          - Testing techniques (Mocks, Test Automation, Test Pyramid, TDD)
+      - description: |
+          Architect and lead developer on vNext SaaS platform
+          - Built and maintained core components for other developers, including:
+            - CI/CD pipeline
+            - Automated test environment
+            - Project architecture
+            - Authentication
+            - Data access
+            - Security
+            - Credit card processing
+          - Platform was much more robust than anything the company had built before
+          - Single codebase, built & optimized for multiple target platforms
+          - 10,000+ unit & integration tests ran against each target platform, all in <5 mins
+          - Maintained >=90% code coverage
+        technologies:
+          - item: .NET
+            isPrimary: true
+          - item: ADO.NET
+          - item: ASP.NET
+          - item: C#
+            isPrimary: true
+          - item: ClickOnce
+          - item: Code Contracts
+          - item: Dotfuscator
+          - item: EF
+          - item: Encryption
+          - item: Globalization
+          - item: IdentityServer
+          - item: IIS
+          - item: Infragistics
+          - item: InstallShield
+          - item: LLBLGen Pro
+          - item: Moq
+          - item: MS Dynamics C5
+          - item: MySQL
+          - item: NHibernate
+          - item: NodaTime
+          - item: NuGet
+          - item: Oracle
+            isPrimary: true
+          - item: Payments
+          - item: SAML
+          - item: SQLite
+            isPrimary: true
+          - item: T4
+          - item: TFS
+            isPrimary: true
+          - item: VB.NET
+            isPrimary: true
+          - item: WCF
+          - item: WIF
+          - item: WinForms
+            isPrimary: true
+          - item: WPF
+          - item: x509
+          - item: XML
+      - description: |
+          Inherited lead development role for current SaaS platform.
+          Significant contributions include:
+          - Data access
+          - Core object model
+          - Common UI controls
+          - Web services layer
+          - Deployment and Windows installer
+        technologies:
+          - item: ActiveX
+          - item: ADO
+          - item: ASP
+          - item: IIS
+          - item: Infragistics
+          - item: Oracle
+            isPrimary: true
+          - item: VB6
+            isPrimary: true
+          - item: VSS
+            isPrimary: true
+          - item: WinForms
+            isPrimary: true
+          - item: XML
+      - description: Helped maintain legacy SaaS platform (2005 only)
+        technologies:
+          - item: ActiveX
+          - item: ADO
+          - item: ASP
+          - item: IIS
+          - item: SQL Server
+            isPrimary: true
+          - item: VB6
+            isPrimary: true
+          - item: VSS
+            isPrimary: true
+      - description: |
+          Provided general support for the rest of the development team.
+          When anyone needed help, I was the one they came to.
+
+  - company: Keane, Inc.
+    title: Consultant
+    dates:
+      start:
+        year: 2001
+        month: 7
+      end:
+        year: 2005
+        month: 1
+    responsibilities:
+      - description: Contracted to The Church of Jesus Christ of Latter-day Saints
+      - description: |
+          Designed, built, and/or maintained several applications and databases, including:
+          - Global missionary debit card stipend system
+          - Genealogical (and other historical) records manager
+          - Tracking system for welfare provided to homeless people in Salt Lake City
+          - Integration of financial data with various 3rd-party systems
+        technologies:
+          - item: ACH
+          - item: ActiveX
+          - item: ADO
+          - item: ASP
+          - item: HTML
+          - item: MAPI
+          - item: MS Access
+            isPrimary: true
+          - item: MS Excel
+          - item: Oracle
+            isPrimary: true
+          - item: PDF
+          - item: PeopleSoft
+          - item: QuickBooks
+          - item: Scanners
+          - item: SMTP
+          - item: VB6
+            isPrimary: true
+          - item: VBA
+            isPrimary: true
+          - item: Windows API
+      - description: |
+          Helped maintain and enhance several legacy applications, including:
+          - Global missionary onboarding system
+          - Custom project management application
+          - Parking permit & ticket management (on handheld devices) for church properties
+        technologies:
+          - item: ADO
+          - item: ASP
+          - item: Handheld PC
+          - item: HTML
+          - item: MS Access
+            isPrimary: true
+          - item: MS Excel
+          - item: Oracle
+            isPrimary: true
+          - item: VB6
+            isPrimary: true
+          - item: VBA
+            isPrimary: true
+          - item: Windows API
+      - description: Provided general IT support and consulting services
+
+  - company: PEGUS Research, Inc.
+    title: Technical Research Assistant
+    dates:
+      start:
+        year: 1999
+        month: 7
+      end:
+        year: 2001
+        month: 7
+    responsibilities:
+      - description: |
+          Designed, built, and/or maintained several applications and databases, including:
+          - Pharmaceutical research studies for companies such as Novartis and GlaxoSmithKline
+          - Internal time tracking and payroll
+          - Nationwide network of partner pharmacies
+        technologies:
+          - item: ActiveX
+          - item: ADO
+          - item: MS Access
+            isPrimary: true
+          - item: VB6
+            isPrimary: true
+          - item: VBA
+            isPrimary: true
+          - item: Windows API
+      - description: Provided IT support throughout the company
 
 certifications:
   note:

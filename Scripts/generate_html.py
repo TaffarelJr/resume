@@ -29,8 +29,102 @@ from common import (
     # Formatting functions
     filter_experience_for_brief,
     format_date_range,
-    get_badge_color,
+    build_badge_url,
 )
+
+
+#───────────────────────────────────────────────────────────────────────────────
+# HTML Formatting
+#───────────────────────────────────────────────────────────────────────────────
+
+
+def _render_paragraph(lines: list[str]) -> str:
+    """Render paragraph lines as a <p> element."""
+    return f"<p>{' '.join(lines)}</p>"
+
+
+def _render_bullets(bullets: list[str], badges: list[str] | None = None) -> list[str]:
+    """Render bullet lines as a <ul> element, optionally with badges as final <li>."""
+    result = ["  <ul>"]
+    for bullet in bullets:
+        result.append(f"    <li>{bullet}</li>")
+    if badges:
+        result.append("    <li>")
+        for badge in badges:
+            result.append(f"      {badge}")
+        result.append("    </li>")
+    result.append("  </ul>")
+    return result
+
+
+def _classify_line(line: str, has_pending_bullets: bool) -> tuple[str, str]:
+    """
+    Classify a line and extract its content.
+
+    Returns:
+        Tuple of (line_type, content) where line_type is one of:
+        'bullet', 'continuation', 'paragraph', or 'empty'
+    """
+    stripped = line.lstrip()
+    if not stripped:
+        return ("empty", "")
+    if stripped.startswith("- "):
+        return ("bullet", stripped[2:].strip())
+    leading_spaces = len(line) - len(stripped)
+    if leading_spaces > 0 and has_pending_bullets:
+        return ("continuation", stripped)
+    return ("paragraph", stripped)
+
+
+def format_html_block(text: str, badges: list[str] | None = None) -> str:
+    """
+    Format a text block for HTML output, optionally with technology badges.
+
+    Converts text with bullet points into proper HTML structure:
+    - Non-bullet lines become <p> elements
+    - Consecutive bullet lines are wrapped in <ul><li> elements
+    - Continuation lines (indented non-bullets) are joined to previous line
+    - If badges are provided, they become the final <li> in a <ul>, each on its own line
+
+    Args:
+        text: The text to format (may contain newlines and bullet points)
+        badges: List of badge HTML strings (e.g., '<img src="...">')
+
+    Returns:
+        HTML-formatted string with proper <p> and <ul>/<li> tags
+    """
+    if badges is None:
+        badges = []
+    lines = text.strip().split("\n") if text else []
+    result: list[str] = []
+    current_bullets: list[str] = []
+    current_paragraph: list[str] = []
+
+    for line in lines:
+        line_type, content = _classify_line(line, bool(current_bullets))
+
+        if line_type == "bullet":
+            if current_paragraph:
+                result.append(_render_paragraph(current_paragraph))
+                current_paragraph.clear()
+            current_bullets.append(content)
+
+        elif line_type == "continuation":
+            current_bullets[-1] += " " + content
+
+        elif line_type == "paragraph":
+            if current_bullets:
+                result.extend(_render_bullets(current_bullets))
+                current_bullets.clear()
+            current_paragraph.append(content)
+
+    # Flush remaining content
+    if current_paragraph:
+        result.append(_render_paragraph(current_paragraph))
+    if current_bullets or badges:
+        result.extend(_render_bullets(current_bullets, badges))
+
+    return "\n".join(result)
 
 
 #───────────────────────────────────────────────────────────────────────────────
@@ -54,6 +148,7 @@ def create_jinja_env() -> Environment:
 
     # Register custom filters (used with | syntax in templates)
     env.filters["format_date_range"] = format_date_range
+    env.filters["format_html_block"] = format_html_block
     env.filters["tech_to_badge"] = tech_to_badge
 
     return env
@@ -76,12 +171,8 @@ def tech_to_badge(tech: dict) -> str:
     """
     name = tech.get("item", "")
     is_primary = tech.get("isPrimary", False)
-
-    # Format for shields.io URL (dashes become double-dash, spaces become underscore)
-    label = name.replace("-", "--").replace(" ", "_")
-    color = get_badge_color(name, is_primary)
-
-    return f'<img src="https://img.shields.io/badge/{label}-{color}" alt="{name}">'
+    url = build_badge_url(name, is_primary)
+    return f'<img src="{url}" alt="{name}">'
 
 
 #───────────────────────────────────────────────────────────────────────────────

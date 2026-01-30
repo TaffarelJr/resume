@@ -42,3 +42,177 @@ EDUCATION
 
 B.S. in Information Technology - Software Emphasis
 Western Governors University, 2016
+
+════════════════════════════════════════════════════════════════════════════════
+PROFESSIONAL EXPERIENCE
+════════════════════════════════════════════════════════════════════════════════
+
+R1 RCM, Inc. | Staff Software Engineer | 3/2023 - Present
+
+Tech lead for the company's first AI app: an internal ChatGPT clone
+  - Rapid training on bleeding-edge AI technologies
+  - Kept the app up-to-date constantly as AI technology evolved and new features were requested, iterating through increasingly complex architectures
+  - Roughly on-par with ChatGPT functionality
+  - .NET, AI, AISearch, AppInsights, Azure, Azure DevOps, C#, Confluence, CosmosDB, DocIntel, Docker, EventHubs, Git, GitHub Enterprise, Kafka, Kernel Memory, LLM, MCP, MongoDB, Moq, NextJS, NuGet, OpenTelemetry, Prompt Engineering, React, Semantic Kernel, Serilog, SignalR, SonarQube, Terraform
+
+Recently joined a BI team where I'm applying my recent AI expertise
+  - Working to allow users to chat with AI over our entire Data Warehouse
+  - Customizing AI Agents and various prompt instructions for vibe coding
+  - Planning major migration between Azure tenants
+  - .NET, Agents, AI, Angular, AppInsights, Azure, Azure DevOps, C#, EF Core, Git, GitHub Enterprise, LLM, MCP, Moq, NuGet, Prompt Engineering, Serilog, ServiceBus, SignalR, Snowflake, SonarQube, SQL Server, Terraform
+
+Presented on various technologies and architectural concepts for coworkers, other Architects, and management
+  - MS PowerPoint
+
+────────────────────────────────────────────────────────────────────────────────
+
+R1 RCM, Inc. | Software Architect | 7/2021 - 3/2023
+
+Worked with Accounts Receivable teams to design migration of our legacy monolithic apps towards newer architecture
+  - Microservices
+  - Domain-Driven Design (esp. Bounded Contexts)
+  - Event-Driven architecture (between microservices)
+  - Explicit Architecture (inside microservices)
+  - .NET, AppInsights, Azure, C#, Git, GitHub Enterprise, NuGet, Serilog, ServiceBus, SQL Server, Terraform
+
+Built and maintained several shared packages, addressing various cross-cutting concerns for microservices
+  - .NET, Artifactory, Azure, C#, Cake, CosmosDB, EventHubs, Git, GitHub Enterprise, Jira, Kafka, MongoDB, Moq, NuGet, React, Serilog, SonarQube, SQL Server
+
+Conducted a pilot for GitHub Enterprise
+  - Managed all configuration
+  - Built and maintained custom build agents
+  - Onboarded the entire development staff (and management)
+  - Designed and executed the transition strategy from Jira
+  - Trained new dedicated GitHub team, then handed off to them
+  - Git, GitHub Enterprise
+
+Presented on various technologies and architectural concepts for coworkers, other Architects, and management
+  - MS PowerPoint
+
+────────────────────────────────────────────────────────────────────────────────
+
+Willis Towers Watson plc | Software Architect | 2/2017 - 7/2021
+
+Worked with several dev teams as a force-multiplier, with a specific focus on:
+  - Helping teams redesign legacy code as event-based microservices
+  - Using refactoring to arrive at those designs (instead of full-scale rewrites)
+  - Assisting teams as they migrated to new CI/CD tooling
+  - Coordinating integration between teams & their microservices
+  - Recommending best practices, patterns, and strategies
+  - Assisting developers to grow their personal software skills and plan for their careers (mentoring)
+
+Built out IaC environments in Azure
+
+Built and maintained several shared packages, addressing various cross-cutting concerns for microservices
+
+.NET, AppInsights, AppMetrics, Auth0, Azure, C#, Cake, CosmosDB, Dapper, Docker, EventHubs, Git, GitHub Enterprise, Kafka, Marten, MongoDB, Moq, NuGet, Octopus Deploy, PagerDuty, PostgreSQL, RavenDB, React, Serilog, SignalR, SQL Server, Sumo Logic, TeamCity, Terraform
+
+────────────────────────────────────────────────────────────────────────────────
+
+Willis Towers Watson plc | Senior Software Developer | 3/2016 - 2/2017
+
+Played a central role in designing and implementing the strategy for migrating to new database technology
+  - Created efficient tooling to perform automated document migration and validation
+
+General bugfixes, improving the performance of various components across our system
+  - Improved the performance of our largest query by 50-80%
+
+Explored options for moving our legacy monolith code to microservices
+
+.NET, C#, Dapper, Git, Marten, Moq, NuGet, PostgreSQL, RavenDB, Storyteller, StructureMap, TeamCity
+
+────────────────────────────────────────────────────────────────────────────────
+
+Aviacode, Inc. | Senior Software Developer | 8/2013 - 2/2016
+
+Helped design and build new SaaS platform for medical coding professionals, including:
+  - Server-side distributed system
+  - Onion architecture
+  - Durable messaging
+  - Document storage
+  - Client-side SPA
+
+Specific focus on back-end processes and security
+
+Was fortunate to work under some truly amazing architects. While I wasn't the one driving this time around, I learned a lot.
+
+.NET, AJAX, Angular 2, AngularJS, ASP.NET, Autofac, C#, CSS 3, Git, HTML 5, IIS, JavaScript, JQuery, JSON, Mercurial, MSMQ, NHibernate, NuGet, RavenDB, Rhino Mocks, SAML, T4, TeamCity, TypeScript, WIF, WinForms, XML
+
+────────────────────────────────────────────────────────────────────────────────
+
+Centershift, Inc. | Software Developer | 2/2005 - 7/2013
+
+While the company used the same title for all developers, I served in the sole R&D/architect position.
+
+Researched and spearheaded several initiatives to improve our software and SDLC, including:
+  - Project management (Agile, Scrum)
+      - Led a 2-day conference to train the entire company
+      - Helped train other companies with a coworker as a side gig
+  - Centralized source control (Hypervisor, TFS, VM, VNet)
+      - Automated CI/CD and log aggregation
+      - Virtual dynamic test lab
+      - Branching strategies
+  - Patterns & practices (Clean Code, Code Contracts, DDD, OOP, SOA, SOLID)
+  - Development techniques (Craftsmanship, Pair Programming, Refactoring)
+  - Testing techniques (Mocks, Test Automation, Test Pyramid, TDD)
+
+Architect and lead developer on vNext SaaS platform
+  - Built and maintained core components for other developers, including:
+    - CI/CD pipeline
+    - Automated test environment
+    - Project architecture
+    - Authentication
+    - Data access
+    - Security
+    - Credit card processing
+  - Platform was much more robust than anything the company had built before
+  - Single codebase, built & optimized for multiple target platforms
+  - 10,000+ unit & integration tests ran against each target platform, all in <5 mins
+  - Maintained >=90% code coverage
+  - .NET, ADO.NET, ASP.NET, C#, ClickOnce, Code Contracts, Dotfuscator, EF, Encryption, Globalization, IdentityServer, IIS, Infragistics, InstallShield, LLBLGen Pro, Moq, MS Dynamics C5, MySQL, NHibernate, NodaTime, NuGet, Oracle, Payments, SAML, SQLite, T4, TFS, VB.NET, WCF, WIF, WinForms, WPF, x509, XML
+
+Inherited lead development role for current SaaS platform. Significant contributions include:
+  - Data access
+  - Core object model
+  - Common UI controls
+  - Web services layer
+  - Deployment and Windows installer
+  - ActiveX, ADO, ASP, IIS, Infragistics, Oracle, VB6, VSS, WinForms, XML
+
+Helped maintain legacy SaaS platform (2005 only)
+  - ActiveX, ADO, ASP, IIS, SQL Server, VB6, VSS
+
+Provided general support for the rest of the development team. When anyone needed help, I was the one they came to.
+
+────────────────────────────────────────────────────────────────────────────────
+
+Keane, Inc. | Consultant | 7/2001 - 1/2005
+
+Contracted to The Church of Jesus Christ of Latter-day Saints
+
+Designed, built, and/or maintained several applications and databases, including:
+  - Global missionary debit card stipend system
+  - Genealogical (and other historical) records manager
+  - Tracking system for welfare provided to homeless people in Salt Lake City
+  - Integration of financial data with various 3rd-party systems
+  - ACH, ActiveX, ADO, ASP, HTML, MAPI, MS Access, MS Excel, Oracle, PDF, PeopleSoft, QuickBooks, Scanners, SMTP, VB6, VBA, Windows API
+
+Helped maintain and enhance several legacy applications, including:
+  - Global missionary onboarding system
+  - Custom project management application
+  - Parking permit & ticket management (on handheld devices) for church properties
+  - ADO, ASP, Handheld PC, HTML, MS Access, MS Excel, Oracle, VB6, VBA, Windows API
+
+Provided general IT support and consulting services
+
+────────────────────────────────────────────────────────────────────────────────
+
+PEGUS Research, Inc. | Technical Research Assistant | 7/1999 - 7/2001
+
+Designed, built, and/or maintained several applications and databases, including:
+  - Pharmaceutical research studies for companies such as Novartis and GlaxoSmithKline
+  - Internal time tracking and payroll
+  - Nationwide network of partner pharmacies
+  - ActiveX, ADO, MS Access, VB6, VBA, Windows API
+
+Provided IT support throughout the company

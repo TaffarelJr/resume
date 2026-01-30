@@ -29,6 +29,7 @@ from common import (
     filter_experience_for_brief,
     format_date_range,
     build_badge_url,
+    url_encode,
 )
 
 
@@ -52,6 +53,7 @@ def create_jinja_env() -> Environment:
 
     # Register custom filters (used with | syntax in templates)
     env.filters["tech_to_badge"] = tech_to_badge
+    env.filters["url_encode"] = url_encode
 
     # Register global functions (called directly in templates)
     env.globals["format_date_range"] = format_date_range

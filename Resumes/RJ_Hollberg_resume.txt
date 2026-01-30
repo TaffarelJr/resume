@@ -216,3 +216,37 @@ Designed, built, and/or maintained several applications and databases, including
   - ActiveX, ADO, MS Access, VB6, VBA, Windows API
 
 Provided IT support throughout the company
+
+════════════════════════════════════════════════════════════════════════════════
+PAST CERTIFICATIONS
+════════════════════════════════════════════════════════════════════════════════
+
+I've earned various certifications over the years. These are no longer active, but demonstrate breadth of foundational knowledge. Always happy to pursue new ones if needed!
+
+Microsoft
+  MCPS
+    - Microsoft Certified Professional
+  MTA
+    - Windows Operating System Fundamentals
+    - Windows Server Administration Fundamentals
+    - Software Development Fundamentals
+    - Web Development Fundamentals
+    - Database Fundamentals
+    - Networking Fundamentals
+    - Security Fundamentals
+
+CompTIA
+  - A+ ce
+  - Network+ ce
+  - Security+ ce
+  - Project+
+
+CIW
+  - Web Foundations Associate
+  - Web Design Specialist
+  - JavaScript Specialist
+  - Database Design Specialist
+
+Oracle
+  OCA
+    - Java SE 7 Programmer

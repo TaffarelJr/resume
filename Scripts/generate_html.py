@@ -30,6 +30,7 @@ from common import (
     filter_experience_for_brief,
     format_date_range,
     build_badge_url,
+    url_encode,
 )
 
 
@@ -150,6 +151,7 @@ def create_jinja_env() -> Environment:
     env.filters["format_date_range"] = format_date_range
     env.filters["format_html_block"] = format_html_block
     env.filters["tech_to_badge"] = tech_to_badge
+    env.filters["url_encode"] = url_encode
 
     return env
 

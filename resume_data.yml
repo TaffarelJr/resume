@@ -281,6 +281,7 @@ experience:
 
   - company: Willis Towers Watson plc
     title: Software Architect
+    newPage: true
     dates:
       start:
         year: 2017
@@ -444,6 +445,7 @@ experience:
 
   - company: Centershift, Inc.
     title: Software Developer
+    newPage: true
     dates:
       start:
         year: 2005
@@ -564,6 +566,7 @@ experience:
 
   - company: Keane, Inc.
     title: Consultant
+    newPage: true
     dates:
       start:
         year: 2001
@@ -651,5 +654,74 @@ experience:
       - description: Provided IT support throughout the company
 
 certifications:
-  note:
-  categories: []
+  note: |
+    I've earned various certifications over the years.
+    These are no longer active, but demonstrate breadth of foundational knowledge.
+    Always happy to pursue new ones if needed!
+  categories:
+    - name: MCPS
+      issuer: Microsoft
+      items:
+        - name: Microsoft Certified Professional
+          logo: MS_Cert_Professional_logo_Blk_Wht_rgb.png
+
+    - name: MTA
+      issuer: Microsoft
+      items:
+        - name: Windows Operating System Fundamentals
+          logo: MTA_WindowsOS_Blk_Wht.png
+
+        - name: Windows Server Administration Fundamentals
+          logo: MTA_ServerAdmin_Blk_Wht.png
+
+    - name: MTA
+      issuer: Microsoft
+      items:
+        - name: Software Development Fundamentals
+          logo: MTA_SoftDev_Blk_Wht.png
+
+        - name: Web Development Fundamentals
+          logo: MTA_WebDev_Blk_Wht.png
+
+        - name: Database Fundamentals
+          logo: MTA_Database_Blk_Wht.png
+
+    - name: MTA
+      issuer: Microsoft
+      items:
+        - name: Networking Fundamentals
+          logo: MTA_Network_Blk_Wht.png
+
+        - name: Security Fundamentals
+          logo: MTA_Security_Blk_Wht.png
+
+    - name: CompTIA
+      items:
+        - name: A+ ce
+          logo: Aplus Logo Certified CE.png
+
+        - name: Network+ ce
+          logo: NetworkPlus Logo Certified CE.png
+
+        - name: Security+ ce
+          logo: SecurityPlus Logo Certified CE.png
+
+        - name: Project+
+          logo: ProjectPlus Logo Certified.png
+
+    - name: CIW
+      items:
+        - name: Web Foundations Associate
+          logo: CIW Web Foundations Associate Logo.jpg
+        - name: Web Design Specialist
+          logo: CIW Web Design Specialist Logo.jpg
+        - name: JavaScript Specialist
+          logo: CIW JavaScript Specialist Logo.jpg
+        - name: Database Design Specialist
+          logo: CIW Database Design Specialist Logo.jpg
+
+    - name: OCA
+      issuer: Oracle
+      items:
+        - name: Java SE 7 Programmer
+          logo: Logo.bmp

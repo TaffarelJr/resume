@@ -61,3 +61,24 @@ _{{ edu.institution }}, {{ edu.end }}_
 _Additional experience (back to {{ career_start_year }}) available at
 [{{ personal.website }}]({{ personal.website }})_
 {% endif %}
+{% if not is_brief %}
+
+## Past Certifications
+
+{{ certifications.note | trim }}
+{% for category in certifications.categories %}
+{% set issuer_path = category.issuer ~ "/" if category.issuer else "" %}
+{% if not loop.first %}
+
+---
+{% endif %}
+
+{% for cert in category["items"] %}
+{% set img_path = "../Certifications/" ~ issuer_path ~ category.name ~ "/" ~ cert.name ~ "/" ~ cert.logo %}
+<a href="{{ img_path | url_encode }}">
+  <img src="{{ img_path | url_encode }}"
+       height="100" alt="{{ cert.name }}">
+</a>
+{% endfor %}
+{% endfor %}
+{% endif %}

@@ -12,6 +12,10 @@
   margin: 0.5in;
 }
 
+/* ─────────────────────────────────────────────────────────────────────────────
+   Base Typography
+   ───────────────────────────────────────────────────────────────────────────── */
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 9.5pt;
@@ -19,22 +23,33 @@ body {
   color: #333;
 }
 
-/* Header / Name */
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+  color: #555;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Headings
+   ───────────────────────────────────────────────────────────────────────────── */
+
+/* Name */
 h1 {
   font-size: 20pt;
   margin-bottom: 0.2em;
   color: #1a1a1a;
 }
 
-/* Major sections: Summary, Skills, Education, Professional Experience, Past Certifications */
+/* Major sections */
 h2 {
   font-size: 14pt;
   border-bottom: 2px solid #0066cc;
   padding-bottom: 0.15em;
   margin-top: 0.8em;
   color: #0066cc;
-  page-break-after: avoid;
-  break-after: avoid;
 }
 
 /* Job positions */
@@ -45,14 +60,20 @@ h3 {
   color: #1a1a1a;
 }
 
-/* Contact info at top */
-h1 + p {
+/* ─────────────────────────────────────────────────────────────────────────────
+   Contact Information
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.contact-info {
   margin-top: 0;
   font-size: 9pt;
   color: #666;
 }
 
-/* Skills table */
+/* ─────────────────────────────────────────────────────────────────────────────
+   Skills
+   ───────────────────────────────────────────────────────────────────────────── */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -74,34 +95,38 @@ td {
   border-bottom: 1px solid #ddd;
 }
 
-/* Page break controls - explicit breaks before specific companies */
-.page-break {
-  page-break-before: always !important;
-  break-before: page !important;
+/* ─────────────────────────────────────────────────────────────────────────────
+   Layout & Separators
+   ───────────────────────────────────────────────────────────────────────────── */
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0.8em 0;
 }
 
-/* Major sections should not be split */
 section {
   page-break-inside: avoid;
   break-inside: avoid;
 }
 
-/* Bold text */
-strong {
-  font-weight: 700;
+.page-break {
+  page-break-before: always !important;
+  break-before: page !important;
 }
 
-/* Emphasis */
-em {
-  font-style: italic;
-  color: #555;
+@media print {
+  .print-hide {
+    display: none;
+  }
 }
 
-/* Horizontal rules */
-hr {
-  border: none;
-  border-top: 1px solid #ddd;
-  margin: 0.8em 0;
+/* ─────────────────────────────────────────────────────────────────────────────
+   Certifications
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.cert-logo {
+  height: 100px;
 }
 
   </style>
@@ -110,7 +135,7 @@ hr {
 
 <h1>RJ Hollberg</h1>
 
-<p>
+<p class="contact-info">
   14294 Pepper Grass Lane<br>
   Herriman, UT 84096-6690<br>
   801-558-3812<br>
@@ -340,7 +365,8 @@ elevating team capabilities, and producing high-quality output</li>
   </ul>
 </section>
 
-<hr>
+<hr class="print-hide">
+<div class="page-break"></div>
 
 <section>
   <h3>Willis Towers Watson plc - Software Architect <em>(2/2017 - 7/2021)</em></h3>
@@ -474,7 +500,8 @@ elevating team capabilities, and producing high-quality output</li>
   </p>
 </section>
 
-<hr>
+<hr class="print-hide">
+<div class="page-break"></div>
 
 <section>
   <h3>Centershift, Inc. - Software Developer <em>(2/2005 - 7/2013)</em></h3>
@@ -584,7 +611,8 @@ elevating team capabilities, and producing high-quality output</li>
   <p>Provided general support for the rest of the development team. When anyone needed help, I was the one they came to.</p>
 </section>
 
-<hr>
+<hr class="print-hide">
+<div class="page-break"></div>
 
 <section>
   <h3>Keane, Inc. - Consultant <em>(7/2001 - 1/2005)</em></h3>
@@ -662,6 +690,101 @@ elevating team capabilities, and producing high-quality output</li>
 
   <p>Provided IT support throughout the company</p>
 </section>
+
+<div class="page-break"></div>
+
+<h2>Past Certifications</h2>
+
+<p>I've earned various certifications over the years.
+These are no longer active, but demonstrate breadth of foundational knowledge.
+Always happy to pursue new ones if needed!</p>
+
+<a href="../Certifications/Microsoft/MCPS/Microsoft%20Certified%20Professional/MS_Cert_Professional_logo_Blk_Wht_rgb.png">
+  <img src="../Certifications/Microsoft/MCPS/Microsoft%20Certified%20Professional/MS_Cert_Professional_logo_Blk_Wht_rgb.png"
+       class="cert-logo" alt="Microsoft Certified Professional">
+</a>
+
+<hr>
+
+<a href="../Certifications/Microsoft/MTA/Windows%20Operating%20System%20Fundamentals/MTA_WindowsOS_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Windows%20Operating%20System%20Fundamentals/MTA_WindowsOS_Blk_Wht.png"
+       class="cert-logo" alt="Windows Operating System Fundamentals">
+</a>
+<a href="../Certifications/Microsoft/MTA/Windows%20Server%20Administration%20Fundamentals/MTA_ServerAdmin_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Windows%20Server%20Administration%20Fundamentals/MTA_ServerAdmin_Blk_Wht.png"
+       class="cert-logo" alt="Windows Server Administration Fundamentals">
+</a>
+
+<hr>
+
+<a href="../Certifications/Microsoft/MTA/Software%20Development%20Fundamentals/MTA_SoftDev_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Software%20Development%20Fundamentals/MTA_SoftDev_Blk_Wht.png"
+       class="cert-logo" alt="Software Development Fundamentals">
+</a>
+<a href="../Certifications/Microsoft/MTA/Web%20Development%20Fundamentals/MTA_WebDev_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Web%20Development%20Fundamentals/MTA_WebDev_Blk_Wht.png"
+       class="cert-logo" alt="Web Development Fundamentals">
+</a>
+<a href="../Certifications/Microsoft/MTA/Database%20Fundamentals/MTA_Database_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Database%20Fundamentals/MTA_Database_Blk_Wht.png"
+       class="cert-logo" alt="Database Fundamentals">
+</a>
+
+<hr>
+
+<a href="../Certifications/Microsoft/MTA/Networking%20Fundamentals/MTA_Network_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Networking%20Fundamentals/MTA_Network_Blk_Wht.png"
+       class="cert-logo" alt="Networking Fundamentals">
+</a>
+<a href="../Certifications/Microsoft/MTA/Security%20Fundamentals/MTA_Security_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Security%20Fundamentals/MTA_Security_Blk_Wht.png"
+       class="cert-logo" alt="Security Fundamentals">
+</a>
+
+<hr>
+
+<a href="../Certifications/CompTIA/A%2B%20ce/Aplus%20Logo%20Certified%20CE.png">
+  <img src="../Certifications/CompTIA/A%2B%20ce/Aplus%20Logo%20Certified%20CE.png"
+       class="cert-logo" alt="A+ ce">
+</a>
+<a href="../Certifications/CompTIA/Network%2B%20ce/NetworkPlus%20Logo%20Certified%20CE.png">
+  <img src="../Certifications/CompTIA/Network%2B%20ce/NetworkPlus%20Logo%20Certified%20CE.png"
+       class="cert-logo" alt="Network+ ce">
+</a>
+<a href="../Certifications/CompTIA/Security%2B%20ce/SecurityPlus%20Logo%20Certified%20CE.png">
+  <img src="../Certifications/CompTIA/Security%2B%20ce/SecurityPlus%20Logo%20Certified%20CE.png"
+       class="cert-logo" alt="Security+ ce">
+</a>
+<a href="../Certifications/CompTIA/Project%2B/ProjectPlus%20Logo%20Certified.png">
+  <img src="../Certifications/CompTIA/Project%2B/ProjectPlus%20Logo%20Certified.png"
+       class="cert-logo" alt="Project+">
+</a>
+
+<hr>
+
+<a href="../Certifications/CIW/Web%20Foundations%20Associate/CIW%20Web%20Foundations%20Associate%20Logo.jpg">
+  <img src="../Certifications/CIW/Web%20Foundations%20Associate/CIW%20Web%20Foundations%20Associate%20Logo.jpg"
+       class="cert-logo" alt="Web Foundations Associate">
+</a>
+<a href="../Certifications/CIW/Web%20Design%20Specialist/CIW%20Web%20Design%20Specialist%20Logo.jpg">
+  <img src="../Certifications/CIW/Web%20Design%20Specialist/CIW%20Web%20Design%20Specialist%20Logo.jpg"
+       class="cert-logo" alt="Web Design Specialist">
+</a>
+<a href="../Certifications/CIW/JavaScript%20Specialist/CIW%20JavaScript%20Specialist%20Logo.jpg">
+  <img src="../Certifications/CIW/JavaScript%20Specialist/CIW%20JavaScript%20Specialist%20Logo.jpg"
+       class="cert-logo" alt="JavaScript Specialist">
+</a>
+<a href="../Certifications/CIW/Database%20Design%20Specialist/CIW%20Database%20Design%20Specialist%20Logo.jpg">
+  <img src="../Certifications/CIW/Database%20Design%20Specialist/CIW%20Database%20Design%20Specialist%20Logo.jpg"
+       class="cert-logo" alt="Database Design Specialist">
+</a>
+
+<hr>
+
+<a href="../Certifications/Oracle/OCA/Java%20SE%207%20Programmer/Logo.bmp">
+  <img src="../Certifications/Oracle/OCA/Java%20SE%207%20Programmer/Logo.bmp"
+       class="cert-logo" alt="Java SE 7 Programmer">
+</a>
 
 </body>
 </html>

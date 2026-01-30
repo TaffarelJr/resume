@@ -8,6 +8,7 @@ across all resume format generators (text, markdown, HTML, PDF).
 import re
 from pathlib import Path
 from typing import Optional
+from urllib.parse import quote
 
 import yaml
 
@@ -363,17 +364,21 @@ def get_badge_color(name: str, is_primary: bool = False) -> str:
     return "lightgray"
 
 
-def url_encode_badge_text(text: str) -> str:
+def url_encode(text: str, safe: str = "/") -> str:
     """
-    URL-encode text for use in shields.io badge URLs.
+    URL-encode text for use in URLs.
+
+    Uses Python's built-in urllib.parse.quote() which handles all
+    special characters that need encoding in URLs.
 
     Args:
-        text: The text to encode (e.g., "C#", "ASP.NET Core")
+        text: The text to encode (e.g., "C#", "path/to file")
+        safe: Characters to NOT encode (default: "/" for paths)
 
     Returns:
-        URL-encoded string safe for use in badge URLs
+        URL-encoded string safe for use in URLs
     """
-    return text.replace(" ", "%20").replace("#", "%23").replace("+", "%2B")
+    return quote(text, safe=safe)
 
 
 def build_badge_url(name: str, is_primary: bool = False) -> str:
@@ -383,7 +388,7 @@ def build_badge_url(name: str, is_primary: bool = False) -> str:
     Handles all shields.io escaping conventions:
     - Dashes become double-dash (--)
     - Underscores become double-underscore (__)
-    - Spaces and special characters are URL-encoded
+    - Special characters are URL-encoded
 
     Args:
         name: Technology name (e.g., "C#", "SQL Server")
@@ -394,7 +399,7 @@ def build_badge_url(name: str, is_primary: bool = False) -> str:
     """
     # Escape shields.io special characters first
     label = name.replace("-", "--").replace("_", "__")
-    # Then URL-encode for the URL
-    label = url_encode_badge_text(label)
+    # Then URL-encode for the URL (safe="" to encode everything including /)
+    label = url_encode(label, safe="")
     color = get_badge_color(name, is_primary)
     return f"https://img.shields.io/badge/{label}-{color}"

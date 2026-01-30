@@ -63,3 +63,26 @@ PROFESSIONAL EXPERIENCE
 
 Additional experience (back to {{ career_start_year }}) available at {{ personal.website }}
 {% endif %}
+{% if not is_brief %}
+
+════════════════════════════════════════════════════════════════════════════════
+PAST CERTIFICATIONS
+════════════════════════════════════════════════════════════════════════════════
+
+{{ certifications.note | format_text_block }}
+{% for group in cert_groups %}
+
+{{ group.header }}
+{% if group.subcategories %}
+{% for subcat in group.subcategories %}
+  {{ subcat.name }}
+{% for cert in subcat["items"] %}
+    - {{ cert.name }}
+{% endfor %}
+{% endfor %}
+{% endif %}
+{% for cert in group["items"] %}
+  - {{ cert.name }}
+{% endfor %}
+{% endfor %}
+{% endif %}

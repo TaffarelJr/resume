@@ -5,6 +5,10 @@
   margin: 0.5in;
 }
 
+/* ─────────────────────────────────────────────────────────────────────────────
+   Base Typography
+   ───────────────────────────────────────────────────────────────────────────── */
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 9.5pt;
@@ -12,22 +16,33 @@ body {
   color: #333;
 }
 
-/* Header / Name */
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+  color: #555;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Headings
+   ───────────────────────────────────────────────────────────────────────────── */
+
+/* Name */
 h1 {
   font-size: 20pt;
   margin-bottom: 0.2em;
   color: #1a1a1a;
 }
 
-/* Major sections: Summary, Skills, Education, Professional Experience, Past Certifications */
+/* Major sections */
 h2 {
   font-size: 14pt;
   border-bottom: 2px solid #0066cc;
   padding-bottom: 0.15em;
   margin-top: 0.8em;
   color: #0066cc;
-  page-break-after: avoid;
-  break-after: avoid;
 }
 
 /* Job positions */
@@ -38,14 +53,20 @@ h3 {
   color: #1a1a1a;
 }
 
-/* Contact info at top */
-h1 + p {
+/* ─────────────────────────────────────────────────────────────────────────────
+   Contact Information
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.contact-info {
   margin-top: 0;
   font-size: 9pt;
   color: #666;
 }
 
-/* Skills table */
+/* ─────────────────────────────────────────────────────────────────────────────
+   Skills
+   ───────────────────────────────────────────────────────────────────────────── */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -67,32 +88,36 @@ td {
   border-bottom: 1px solid #ddd;
 }
 
-/* Page break controls - explicit breaks before specific companies */
-.page-break {
-  page-break-before: always !important;
-  break-before: page !important;
+/* ─────────────────────────────────────────────────────────────────────────────
+   Layout & Separators
+   ───────────────────────────────────────────────────────────────────────────── */
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0.8em 0;
 }
 
-/* Major sections should not be split */
 section {
   page-break-inside: avoid;
   break-inside: avoid;
 }
 
-/* Bold text */
-strong {
-  font-weight: 700;
+.page-break {
+  page-break-before: always !important;
+  break-before: page !important;
 }
 
-/* Emphasis */
-em {
-  font-style: italic;
-  color: #555;
+@media print {
+  .print-hide {
+    display: none;
+  }
 }
 
-/* Horizontal rules */
-hr {
-  border: none;
-  border-top: 1px solid #ddd;
-  margin: 0.8em 0;
+/* ─────────────────────────────────────────────────────────────────────────────
+   Certifications
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.cert-logo {
+  height: 100px;
 }

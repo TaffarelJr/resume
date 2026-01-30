@@ -447,3 +447,96 @@ Designed, built, and/or maintained several applications and databases, including
   ![Windows API](https://img.shields.io/badge/Windows%20API-lightgray)
 
 Provided IT support throughout the company
+
+## Past Certifications
+
+I've earned various certifications over the years.
+These are no longer active, but demonstrate breadth of foundational knowledge.
+Always happy to pursue new ones if needed!
+
+<a href="../Certifications/Microsoft/MCPS/Microsoft%20Certified%20Professional/MS_Cert_Professional_logo_Blk_Wht_rgb.png">
+  <img src="../Certifications/Microsoft/MCPS/Microsoft%20Certified%20Professional/MS_Cert_Professional_logo_Blk_Wht_rgb.png"
+       height="100" alt="Microsoft Certified Professional">
+</a>
+
+---
+
+<a href="../Certifications/Microsoft/MTA/Windows%20Operating%20System%20Fundamentals/MTA_WindowsOS_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Windows%20Operating%20System%20Fundamentals/MTA_WindowsOS_Blk_Wht.png"
+       height="100" alt="Windows Operating System Fundamentals">
+</a>
+<a href="../Certifications/Microsoft/MTA/Windows%20Server%20Administration%20Fundamentals/MTA_ServerAdmin_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Windows%20Server%20Administration%20Fundamentals/MTA_ServerAdmin_Blk_Wht.png"
+       height="100" alt="Windows Server Administration Fundamentals">
+</a>
+
+---
+
+<a href="../Certifications/Microsoft/MTA/Software%20Development%20Fundamentals/MTA_SoftDev_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Software%20Development%20Fundamentals/MTA_SoftDev_Blk_Wht.png"
+       height="100" alt="Software Development Fundamentals">
+</a>
+<a href="../Certifications/Microsoft/MTA/Web%20Development%20Fundamentals/MTA_WebDev_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Web%20Development%20Fundamentals/MTA_WebDev_Blk_Wht.png"
+       height="100" alt="Web Development Fundamentals">
+</a>
+<a href="../Certifications/Microsoft/MTA/Database%20Fundamentals/MTA_Database_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Database%20Fundamentals/MTA_Database_Blk_Wht.png"
+       height="100" alt="Database Fundamentals">
+</a>
+
+---
+
+<a href="../Certifications/Microsoft/MTA/Networking%20Fundamentals/MTA_Network_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Networking%20Fundamentals/MTA_Network_Blk_Wht.png"
+       height="100" alt="Networking Fundamentals">
+</a>
+<a href="../Certifications/Microsoft/MTA/Security%20Fundamentals/MTA_Security_Blk_Wht.png">
+  <img src="../Certifications/Microsoft/MTA/Security%20Fundamentals/MTA_Security_Blk_Wht.png"
+       height="100" alt="Security Fundamentals">
+</a>
+
+---
+
+<a href="../Certifications/CompTIA/A%2B%20ce/Aplus%20Logo%20Certified%20CE.png">
+  <img src="../Certifications/CompTIA/A%2B%20ce/Aplus%20Logo%20Certified%20CE.png"
+       height="100" alt="A+ ce">
+</a>
+<a href="../Certifications/CompTIA/Network%2B%20ce/NetworkPlus%20Logo%20Certified%20CE.png">
+  <img src="../Certifications/CompTIA/Network%2B%20ce/NetworkPlus%20Logo%20Certified%20CE.png"
+       height="100" alt="Network+ ce">
+</a>
+<a href="../Certifications/CompTIA/Security%2B%20ce/SecurityPlus%20Logo%20Certified%20CE.png">
+  <img src="../Certifications/CompTIA/Security%2B%20ce/SecurityPlus%20Logo%20Certified%20CE.png"
+       height="100" alt="Security+ ce">
+</a>
+<a href="../Certifications/CompTIA/Project%2B/ProjectPlus%20Logo%20Certified.png">
+  <img src="../Certifications/CompTIA/Project%2B/ProjectPlus%20Logo%20Certified.png"
+       height="100" alt="Project+">
+</a>
+
+---
+
+<a href="../Certifications/CIW/Web%20Foundations%20Associate/CIW%20Web%20Foundations%20Associate%20Logo.jpg">
+  <img src="../Certifications/CIW/Web%20Foundations%20Associate/CIW%20Web%20Foundations%20Associate%20Logo.jpg"
+       height="100" alt="Web Foundations Associate">
+</a>
+<a href="../Certifications/CIW/Web%20Design%20Specialist/CIW%20Web%20Design%20Specialist%20Logo.jpg">
+  <img src="../Certifications/CIW/Web%20Design%20Specialist/CIW%20Web%20Design%20Specialist%20Logo.jpg"
+       height="100" alt="Web Design Specialist">
+</a>
+<a href="../Certifications/CIW/JavaScript%20Specialist/CIW%20JavaScript%20Specialist%20Logo.jpg">
+  <img src="../Certifications/CIW/JavaScript%20Specialist/CIW%20JavaScript%20Specialist%20Logo.jpg"
+       height="100" alt="JavaScript Specialist">
+</a>
+<a href="../Certifications/CIW/Database%20Design%20Specialist/CIW%20Database%20Design%20Specialist%20Logo.jpg">
+  <img src="../Certifications/CIW/Database%20Design%20Specialist/CIW%20Database%20Design%20Specialist%20Logo.jpg"
+       height="100" alt="Database Design Specialist">
+</a>
+
+---
+
+<a href="../Certifications/Oracle/OCA/Java%20SE%207%20Programmer/Logo.bmp">
+  <img src="../Certifications/Oracle/OCA/Java%20SE%207%20Programmer/Logo.bmp"
+       height="100" alt="Java SE 7 Programmer">
+</a>

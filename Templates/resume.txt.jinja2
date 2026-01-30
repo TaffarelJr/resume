@@ -1,0 +1,88 @@
+{# Plain text resume template #}
+════════════════════════════════════════════════════════════════════════════════
+{{ personal.name }}
+════════════════════════════════════════════════════════════════════════════════
+
+{{ personal.address.street }}
+{{ personal.address.city }}, {{ personal.address.state }} {{ personal.address.zip }}
+{{ personal.phone }}
+{{ personal.email }}
+{{ personal.website }}
+
+════════════════════════════════════════════════════════════════════════════════
+SUMMARY
+════════════════════════════════════════════════════════════════════════════════
+
+{{ summary | format_text_block }}
+{% for highlight in highlights %}
+  - {{ highlight.label }}: {{ highlight.description | format_text_block }}
+{% endfor %}
+
+════════════════════════════════════════════════════════════════════════════════
+SKILLS
+════════════════════════════════════════════════════════════════════════════════
+{% for skill in skills %}
+
+{{ skill.domain }}: {{ skill.technologies | join(', ') }}
+{% endfor %}
+
+════════════════════════════════════════════════════════════════════════════════
+EDUCATION
+════════════════════════════════════════════════════════════════════════════════
+{% for edu in education %}
+
+{{ edu.degree }} in {{ edu.field }}
+{{ edu.institution }}, {{ edu.end }}
+{% endfor %}
+
+════════════════════════════════════════════════════════════════════════════════
+PROFESSIONAL EXPERIENCE
+════════════════════════════════════════════════════════════════════════════════
+{% for position in experience %}
+{% if not loop.first %}
+
+────────────────────────────────────────────────────────────────────────────────
+{% endif %}
+
+{{ position.company }} | {{ position.title }} | {{ format_date_range(position.dates) }}
+{% for resp in position.responsibilities %}
+
+{{ resp.description | format_text_block }}
+{% if resp.technologies %}
+  - {{ resp.technologies | map(attribute='item') | join(', ') }}
+{% endif %}
+{% endfor %}
+{% if position.technologies %}
+
+{{ position.technologies | map(attribute='item') | join(', ') }}
+{% endif %}
+{% endfor %}
+{% if is_brief %}
+
+────────────────────────────────────────────────────────────────────────────────
+
+Additional experience (back to {{ career_start_year }}) available at {{ personal.website }}
+{% endif %}
+{% if not is_brief %}
+
+════════════════════════════════════════════════════════════════════════════════
+PAST CERTIFICATIONS
+════════════════════════════════════════════════════════════════════════════════
+
+{{ certifications.note | format_text_block }}
+{% for group in cert_groups %}
+
+{{ group.header }}
+{% if group.subcategories %}
+{% for subcat in group.subcategories %}
+  {{ subcat.name }}
+{% for cert in subcat["items"] %}
+    - {{ cert.name }}
+{% endfor %}
+{% endfor %}
+{% endif %}
+{% for cert in group["items"] %}
+  - {{ cert.name }}
+{% endfor %}
+{% endfor %}
+{% endif %}

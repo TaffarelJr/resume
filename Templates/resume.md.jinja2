@@ -1,0 +1,84 @@
+﻿{# Markdown resume template #}
+# {{ personal.name }} <!-- omit in toc -->
+
+{{ personal.address.street }}  
+{{ personal.address.city }}, {{ personal.address.state }} {{ personal.address.zip }}  
+{{ personal.phone }}  
+[{{ personal.email }}](mailto:{{ personal.email }})  
+[{{ personal.website }}]({{ personal.website }})
+
+## Summary
+
+{{ summary }}
+{% for highlight in highlights %}
+- **{{ highlight.label }}:**
+{{ highlight.description | trim | indent(2, first=True) }}
+{% endfor %}
+
+## Skills
+
+| Domain | Technologies & Expertise |
+| ------ | ------------------------ |
+{% for skill in skills %}
+| **{{ skill.domain }}** | {{ skill.technologies | join(', ') }} |
+{% endfor %}
+
+## Education
+{% for edu in education %}
+
+{{ edu.degree }} in {{ edu.field }}  
+_{{ edu.institution }}, {{ edu.end }}_
+{% endfor %}
+
+## Professional Experience
+{% for position in experience %}
+{% if not loop.first %}
+
+---
+{% endif %}
+
+### {{ position.company }} - {{ position.title }} _({{ format_date_range(position.dates) }})_
+{% for resp in position.responsibilities %}
+
+{{ resp.description | trim }}
+{% if resp.technologies %}
+{% for tech in resp.technologies %}
+{% if loop.first %}- {% else %}  {% endif %}{{ tech | tech_to_badge }}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% if position.technologies %}
+
+{% for tech in position.technologies %}
+{{ tech | tech_to_badge }}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% if is_brief %}
+
+---
+
+_Additional experience (back to {{ career_start_year }}) available at
+[{{ personal.website }}]({{ personal.website }})_
+{% endif %}
+{% if not is_brief %}
+
+## Past Certifications
+
+{{ certifications.note | trim }}
+{% for category in certifications.categories %}
+{% set issuer_path = category.issuer ~ "/" if category.issuer else "" %}
+{% if not loop.first %}
+
+---
+{% endif %}
+
+{% for cert in category["items"] %}
+{% set img_path = "../Certifications/" ~ issuer_path ~ category.name ~ "/" ~ cert.name ~ "/" ~ cert.logo %}
+<a href="{{ img_path | url_encode }}">
+  <img src="{{ img_path | url_encode }}"
+       height="100" alt="{{ cert.name }}">
+</a>
+{% endfor %}
+{% endfor %}
+{% endif %}

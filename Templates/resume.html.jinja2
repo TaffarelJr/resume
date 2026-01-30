@@ -1,0 +1,128 @@
+{# HTML resume template with embedded CSS #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ personal.name }} - Resume</title>
+  <style>
+{{ css }}
+  </style>
+</head>
+<body>
+
+<h1>{{ personal.name }}</h1>
+
+<p class="contact-info">
+  {{ personal.address.street }}<br>
+  {{ personal.address.city }}, {{ personal.address.state }} {{ personal.address.zip }}<br>
+  {{ personal.phone }}<br>
+  <a href="mailto:{{ personal.email }}">{{ personal.email }}</a><br>
+  <a href="{{ personal.website }}">{{ personal.website }}</a>
+</p>
+
+<h2>Summary</h2>
+
+<p>{{ summary }}</p>
+
+<ul>
+{% for highlight in highlights %}
+  <li><strong>{{ highlight.label }}:</strong> {{ highlight.description | trim }}</li>
+{% endfor %}
+</ul>
+
+<h2>Skills</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Domain</th>
+      <th>Technologies &amp; Expertise</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for skill in skills %}
+    <tr>
+      <td><strong>{{ skill.domain }}</strong></td>
+      <td>{{ skill.technologies | join(', ') }}</td>
+    </tr>
+{% endfor %}
+  </tbody>
+</table>
+
+<h2>Education</h2>
+
+{% for edu in education %}
+<p>
+  {{ edu.degree }} in {{ edu.field }}<br>
+  <em>{{ edu.institution }}, {{ edu.end }}</em>
+</p>
+{% endfor %}
+
+<div class="page-break"></div>
+
+<h2>Professional Experience</h2>
+{% for position in experience %}
+{% if position.newPage %}
+
+<hr class="print-hide">
+<div class="page-break"></div>
+{% elif not loop.first %}
+
+<hr>
+{% endif %}
+
+<section>
+  <h3>{{ position.company }} - {{ position.title }} <em>({{ position.dates | format_date_range }})</em></h3>
+{% for resp in position.responsibilities %}
+{% set badges = resp.technologies | map('tech_to_badge') | list if resp.technologies else [] %}
+
+  {{ resp.description | format_html_block(badges) | safe }}
+{% endfor %}
+{% if position.technologies %}
+
+  <p>
+{% for badge in position.technologies | map('tech_to_badge') %}
+    {{ badge | safe }}
+{% endfor %}
+  </p>
+{% endif %}
+</section>
+{% endfor %}
+{% if is_brief %}
+
+<hr>
+
+<p>
+  <em>Additional experience (back to {{ career_start_year }}) available at
+    <a href="{{ personal.website }}">{{ personal.website }}</a></em>
+</p>
+{% endif %}
+{% if not is_brief %}
+
+<div class="page-break"></div>
+
+<h2>Past Certifications</h2>
+
+<p>{{ certifications.note | trim }}</p>
+{% for category in certifications.categories %}
+{% set issuer_path = category.issuer ~ "/" if category.issuer else "" %}
+{% if not loop.first %}
+
+<hr>
+{% endif %}
+
+{% for cert in category["items"] %}
+{% set img_path = "../Certifications/" ~ issuer_path ~ category.name ~ "/" ~ cert.name ~ "/" ~ cert.logo %}
+<a href="{{ img_path | url_encode }}"
+   class="cert-link">
+  <img src="{{ img_path | url_encode }}"
+       class="cert-logo" alt="{{ cert.name }}">
+</a>
+{% endfor %}
+{% endfor %}
+{% endif %}
+
+</body>
+</html>
+

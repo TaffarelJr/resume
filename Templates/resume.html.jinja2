@@ -114,7 +114,8 @@
 
 {% for cert in category["items"] %}
 {% set img_path = "../Certifications/" ~ issuer_path ~ category.name ~ "/" ~ cert.name ~ "/" ~ cert.logo %}
-<a href="{{ img_path | url_encode }}">
+<a href="{{ img_path | url_encode }}"
+   class="cert-link">
   <img src="{{ img_path | url_encode }}"
        class="cert-logo" alt="{{ cert.name }}">
 </a>
